@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "2.4",
+    "version": "2.5",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -786,7 +786,7 @@
     },
     {
       "id": "colleges",
-      "label": "Medical Colleges",
+      "label": "MBBS Colleges",
       "blocks": [
         {
           "type": "intro",
@@ -2114,6 +2114,914 @@
               ],
               "sources": [],
               "lastVerified": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ayurveda",
+      "label": "Ayurveda Colleges",
+      "blocks": [
+        {
+          "type": "intro",
+          "html": "BAMS (Bachelor of Ayurvedic Medicine and Surgery) admission uses your NEET UG rank. Two counsellings matter for a Karnataka student: <strong>AACCC</strong> for the national institutes and the 15% All India Quota, and <strong>KEA</strong> for Karnataka's own seats. All cutoffs below are for the <strong>Open / General Merit</strong> category only."
+        },
+        {
+          "type": "heading",
+          "html": "National Ayurveda Institutes (AACCC)"
+        },
+        {
+          "type": "lead",
+          "html": "AACCC (Ayush Admissions Central Counseling Committee) fills these seats on All India rank, with no state domicile. It fills all BAMS seats at BHU, ITRA, NIA Jaipur and NIA Panchkula, and half the BAMS seats at AIIA Goa, NEIAH Shillong and NEIAFMR Pasighat, as listed in the AACCC UG information bulletin 2026-27."
+        },
+        {
+          "type": "callout",
+          "html": "Each cutoff is the highest NEET All India Rank that got an Open seat at that institute in that round. A rank lower (better) than the cutoff was within reach in that round. Round 2 fills only the seats left after Round 1, so its cutoff can be better than Round 1's (NIA Jaipur went from 31,719 to 29,913). The Round 3 result had not been published when this table was made."
+        },
+        {
+          "type": "table",
+          "sortable": true,
+          "wide": true,
+          "columns": [
+            "Institute",
+            "Location",
+            "BAMS seats via AACCC",
+            "Open seats allotted in R1",
+            "2026 R1 cutoff",
+            "R2 cutoff",
+            "R3 cutoff"
+          ],
+          "rows": [
+            [
+              "National Institute of Ayurveda (NIA), Jaipur",
+              "Jaipur, Rajasthan",
+              "100%",
+              "43",
+              "31,719",
+              "29,913",
+              "Pending"
+            ],
+            [
+              "Faculty of Ayurveda, IMS, Banaras Hindu University",
+              "Varanasi, Uttar Pradesh",
+              "100%",
+              "29",
+              "32,754",
+              "31,104",
+              "Pending"
+            ],
+            [
+              "Institute of Teaching and Research in Ayurveda (ITRA)",
+              "Jamnagar, Gujarat",
+              "100%",
+              "44",
+              "37,222",
+              "35,808",
+              "Pending"
+            ],
+            [
+              "National Institute of Ayurveda (NIA), Panchkula",
+              "Panchkula, Haryana",
+              "100%",
+              "34",
+              "37,503",
+              "35,747",
+              "Pending"
+            ],
+            [
+              "All India Institute of Ayurveda (AIIA), Goa",
+              "Dhargal, North Goa",
+              "50%",
+              "20",
+              "40,881",
+              "42,402",
+              "Pending"
+            ],
+            [
+              "North Eastern Institute of Ayurveda and Homoeopathy (NEIAH)",
+              "Shillong, Meghalaya",
+              "50%",
+              "13",
+              "47,358",
+              "52,890",
+              "Pending"
+            ],
+            [
+              "North Eastern Institute of Ayurveda and Folk Medicine Research (NEIAFMR)",
+              "Pasighat, Arunachal Pradesh",
+              "50%",
+              "6",
+              "52,278",
+              "54,363",
+              "Pending"
+            ]
+          ],
+          "sources": [
+            {
+              "label": "AACCC UG 2026 Round 1 final result (16 Sep 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/ayurveda/aaccc/aaccc-ug-2026-round-1-seat-allotment-result-2026-09-16.pdf"
+            },
+            {
+              "label": "AACCC UG 2026 Round 2 final result (2 Oct 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/ayurveda/aaccc/aaccc-ug-2026-round-2-seat-allotment-result-2026-10-02.pdf"
+            },
+            {
+              "label": "AACCC UG information bulletin 2026-27",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/ayurveda/aaccc/aaccc-ug-2026-27-information-bulletin-2026-08-31.pdf"
+            },
+            {
+              "label": "AACCC official website",
+              "url": "https://aaccc.gov.in/"
+            }
+          ],
+          "lastVerified": "2026-10-21"
+        },
+        {
+          "type": "note",
+          "html": "Data: AACCC UG 2026 final results for Rounds 1 and 2, Central Universities / National Institutions quota, BAMS, Open category without PwD. The R2 cutoff counts only seats allotted in Round 2, not seats kept from Round 1. NIA Jaipur also filled 9 seats through the All India Quota Government list; those are not counted. AIIA New Delhi does not appear in either BAMS result. AACCC does not publish college fees; check each institute's website."
+        },
+        {
+          "type": "heading",
+          "html": "Karnataka BAMS Colleges (KEA Government Seat, General Merit)"
+        },
+        {
+          "type": "lead",
+          "html": "83 colleges offered KEA government-quota BAMS seats in Round 1 of 2026: 4 government, 2 aided and 77 private. The fee for a government seat is fixed by KEA: <strong>₹30,335 a year at government colleges</strong>, ₹60,000 at aided colleges and <strong>₹75,000 at private colleges</strong>."
+        },
+        {
+          "type": "callout",
+          "html": "Each cutoff is the highest NEET All India Rank that got a General Merit (GM) government seat at that college in Round 1. Only the Round 1 list for 2026 is available here, so later rounds are not shown. In later rounds cutoffs usually move to worse ranks as seats open up again, so a college just outside your rank in Round 1 can still come within reach."
+        },
+        {
+          "type": "subheading",
+          "html": "All colleges (sorted by Round 1 cutoff)",
+          "collapsible": true
+        },
+        {
+          "type": "table",
+          "sortable": true,
+          "wide": true,
+          "filterable": true,
+          "columns": [
+            "College",
+            "Location",
+            "Type",
+            "Govt-seat fee / yr",
+            "GM seats allotted in R1",
+            "2026 R1 cutoff"
+          ],
+          "rows": [
+            [
+              "Sri Dharmasthala Manjunatheswara College of Ayurveda",
+              "Hassan",
+              "Private",
+              "₹75,000",
+              "8",
+              "1,32,093"
+            ],
+            [
+              "Government Ayurvedic Medical College, Bengaluru",
+              "Bengaluru, Dhanwantri Road",
+              "Government",
+              "₹30,335",
+              "32",
+              "1,34,418"
+            ],
+            [
+              "Government Ayurvedic Medical College and Hospital, Mysuru",
+              "Mysuru",
+              "Government",
+              "₹30,335",
+              "32",
+              "1,48,122"
+            ],
+            [
+              "Taranatha Government Ayurvedic Medical College",
+              "Ballari",
+              "Government",
+              "₹30,335",
+              "9",
+              "1,52,508"
+            ],
+            [
+              "Dharmasthala Manjunatheshwara Institute of Ayurveda and Hospital",
+              "Bengaluru, Kumbalgodu",
+              "Private",
+              "₹75,000",
+              "9",
+              "1,62,786"
+            ],
+            [
+              "Sri Dharmasthala Manjunatheshwara College of Ayurveda",
+              "Kuthpady, Udupi",
+              "Private",
+              "₹75,000",
+              "9",
+              "1,62,925"
+            ],
+            [
+              "Government Ayurveda Medical College, Shivamogga",
+              "Shivamogga",
+              "Government",
+              "₹30,335",
+              "20",
+              "1,67,833"
+            ],
+            [
+              "JSS Ayurvedic Medical College",
+              "Mysuru",
+              "Private",
+              "₹75,000",
+              "15",
+              "1,83,531"
+            ],
+            [
+              "N.K. Jabshetty Ayurvedic Medical College and PG Centre",
+              "Bidar",
+              "Private",
+              "₹75,000",
+              "4",
+              "1,84,904"
+            ],
+            [
+              "Ayurveda Mahavidyalaya and Hospital",
+              "Hubballi, Heggeri Extension",
+              "Aided",
+              "₹60,000",
+              "16",
+              "1,87,673"
+            ],
+            [
+              "Ayurvedic Medical College, Hospital and Research Centre",
+              "Bengaluru, Vijayanagara",
+              "Private",
+              "₹75,000",
+              "10",
+              "1,92,249"
+            ],
+            [
+              "Sri Sri College of Ayurvedic Sciences and Research",
+              "Bengaluru, Kanakapura Road",
+              "Private",
+              "₹75,000",
+              "10",
+              "1,92,783"
+            ],
+            [
+              "Shri Hingulambika Ayurvedic Medical College",
+              "Kalaburagi",
+              "Private",
+              "₹75,000",
+              "2",
+              "1,97,231"
+            ],
+            [
+              "Shri Jagadguru Gavisiddeshwara Ayurvedic Medical College",
+              "Koppal",
+              "Private",
+              "₹75,000",
+              "3",
+              "2,01,544"
+            ],
+            [
+              "Alva's Ayurvedic Medical College",
+              "Moodbidri, Dakshina Kannada",
+              "Private",
+              "₹75,000",
+              "9",
+              "2,04,355"
+            ],
+            [
+              "Adichunchanagiri Ayurveda Medical College",
+              "Nelamangala, Bengaluru Rural",
+              "Private",
+              "₹75,000",
+              "8",
+              "2,07,369"
+            ],
+            [
+              "Gurushiddappa Melmalagi Ayurveda Medical College",
+              "Gadag",
+              "Aided",
+              "₹60,000",
+              "11",
+              "2,10,693"
+            ],
+            [
+              "Sushrutha Ayurveda Medical College and Hospital",
+              "Jigani, Anekal, Bengaluru",
+              "Private",
+              "₹75,000",
+              "7",
+              "2,15,194"
+            ],
+            [
+              "KLE Ayurveda Medical College",
+              "Chikkodi, Belagavi",
+              "Private",
+              "₹75,000",
+              "9",
+              "2,16,968"
+            ],
+            [
+              "SBG Ayurvedic Medical College and Hospital",
+              "Belagavi",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,17,491"
+            ],
+            [
+              "Sanjeevini Ayurveda Medical College and Hospital",
+              "Hubballi, Gokul Road",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,18,611"
+            ],
+            [
+              "Muniyal Institute of Ayurvedic Medical Sciences",
+              "Manipal, Udupi",
+              "Private",
+              "₹75,000",
+              "7",
+              "2,25,612"
+            ],
+            [
+              "Sahakara Maharshi Sri B A Patil Ayurvedic Medical College",
+              "Ghataprabha, Gokak, Belagavi",
+              "Private",
+              "₹75,000",
+              "8",
+              "2,26,803"
+            ],
+            [
+              "Maharaja Institute of Ayurvedic Medical Sciences and Hospital",
+              "Belavadi, Srirangapatna, Mandya",
+              "Private",
+              "₹75,000",
+              "4",
+              "2,30,870"
+            ],
+            [
+              "Cauvery Ayurvedic Medical College and Hospital",
+              "Mysuru",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,31,167"
+            ],
+            [
+              "Ramakrishna Ayurveda Medical College",
+              "Bengaluru, Yelahanka",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,31,884"
+            ],
+            [
+              "Shri Basaveshwara Vidya Vardhak Sangha Ayurvedic Medical College",
+              "Bagalkote",
+              "Private",
+              "₹75,000",
+              "7",
+              "2,32,398"
+            ],
+            [
+              "KTG Ayurvedic Medical College and Hospital",
+              "Bengaluru, Sunkadakatte",
+              "Private",
+              "₹75,000",
+              "3",
+              "2,34,612"
+            ],
+            [
+              "Bapuji Ayurveda Medical College and Hospital",
+              "Shivamogga",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,38,740"
+            ],
+            [
+              "A.V. Samiti's Ayurvedic Mahavidyalaya",
+              "Vijayapura",
+              "Private",
+              "₹75,000",
+              "8",
+              "2,40,077"
+            ],
+            [
+              "Sindagi Shanta Veereshwar Ayurvedic Medical College",
+              "Haveri",
+              "Private",
+              "₹75,000",
+              "4",
+              "2,42,111"
+            ],
+            [
+              "Poornima Ayurvedic Medical College",
+              "Raichur",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,43,397"
+            ],
+            [
+              "Hillside Ayurveda Medical College and Hospital",
+              "Bengaluru, Agara",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,43,705"
+            ],
+            [
+              "Tapovana Ayurvedic Medical College and Hospital",
+              "Davanagere",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,48,759"
+            ],
+            [
+              "Agastya Ayurveda Medical College and Hospital",
+              "Koppal",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,49,957"
+            ],
+            [
+              "Rashmi Institute of Ayurveda Medical Science and Research Centre",
+              "Vijaynagar (city not stated)",
+              "Private",
+              "₹75,000",
+              "4",
+              "2,56,893"
+            ],
+            [
+              "Shri Basaveshwara Ayurvedic Medical College",
+              "Kalaburagi",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,58,279"
+            ],
+            [
+              "Rajeev Institute of Ayurvedic Medical Sciences",
+              "Hassan",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,59,386"
+            ],
+            [
+              "T.M.A.E. Society Ayurvedic Medical College",
+              "Hosapete, Vijayanagara",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,60,093"
+            ],
+            [
+              "T.A.M.E. Society's Ayurvedic Medical College",
+              "Nidige, Shivamogga",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,60,193"
+            ],
+            [
+              "Aroor Laxminarayana Rao Memorial Ayurvedic Medical College",
+              "Koppa, Chikkamagaluru",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,60,351"
+            ],
+            [
+              "Hita Ayurvedic Medical College",
+              "Bengaluru, Nagasandra",
+              "Private",
+              "₹75,000",
+              "8",
+              "2,60,770"
+            ],
+            [
+              "Ashwini Ayurvedic Medical College and Research Centre",
+              "Tumakuru",
+              "Private",
+              "₹75,000",
+              "10",
+              "2,61,285"
+            ],
+            [
+              "Shri C.B. Guttal Ayurvedic Medical College",
+              "Dharwad",
+              "Private",
+              "₹75,000",
+              "8",
+              "2,61,728"
+            ],
+            [
+              "Bapuji Ayurvedic Medical College and Hospital",
+              "Challakere, Chitradurga",
+              "Private",
+              "₹75,000",
+              "3",
+              "2,62,867"
+            ],
+            [
+              "Sri Paripoorna Sanathana Ayurveda Medical College",
+              "Nelamangala, Bengaluru Rural",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,65,088"
+            ],
+            [
+              "Ashwini Ayurveda Medical College and PG Centre",
+              "Davanagere",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,68,694"
+            ],
+            [
+              "Karnataka Ayurvedic Medical College and Hospital",
+              "Mangaluru",
+              "Private",
+              "₹75,000",
+              "9",
+              "2,68,946"
+            ],
+            [
+              "Kanachur Ayurveda Medical College and Hospital",
+              "Mangaluru, Natekal",
+              "Private",
+              "₹75,000",
+              "10",
+              "2,70,574"
+            ],
+            [
+              "K.V.G. Ayurvedic Medical College and Hospital",
+              "Sullia, Dakshina Kannada",
+              "Private",
+              "₹75,000",
+              "10",
+              "2,72,289"
+            ],
+            [
+              "Rajiv Gandhi Education Society's Ayurvedic Medical College",
+              "Ron, Gadag",
+              "Private",
+              "₹75,000",
+              "9",
+              "2,72,348"
+            ],
+            [
+              "SDM Trust's Ayurvedic Medical College",
+              "Terdal, Jamkhandi, Bagalkote",
+              "Private",
+              "₹75,000",
+              "9",
+              "2,72,605"
+            ],
+            [
+              "Sri Vijaya Mahantheshwara Ayurvedic Medical College",
+              "Ilkal, Bagalkote",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,72,729"
+            ],
+            [
+              "Sharada Ayurveda Medical College and Hospital",
+              "Talapady, Mangaluru",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,73,194"
+            ],
+            [
+              "Sushrutha Institute of Ayurveda Medical Sciences",
+              "Davanagere",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,82,927"
+            ],
+            [
+              "Sri Siddarameshwara Ayurveda Medical College",
+              "Naubad, Bidar",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,84,565"
+            ],
+            [
+              "Atharva Ayurvedic Medical College",
+              "Dharwad",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,85,382"
+            ],
+            [
+              "S A Ningoji Ayurvedic Medical College",
+              "Dadegal, Koppal",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,86,842"
+            ],
+            [
+              "Dr. N A Magadum Ayurvedic Medical College",
+              "Ankali, Chikkodi, Belagavi",
+              "Private",
+              "₹75,000",
+              "8",
+              "2,87,631"
+            ],
+            [
+              "Dr. Ravi Patil Ayurveda Medical College",
+              "Honaga, Belagavi",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,88,869"
+            ],
+            [
+              "Samata Ayurvedic Medical College",
+              "Aland, Kalaburagi",
+              "Private",
+              "₹75,000",
+              "2",
+              "2,92,216"
+            ],
+            [
+              "Basavaraj Patil Memorial Ayurvedic Medical College",
+              "Humnabad, Bidar",
+              "Private",
+              "₹75,000",
+              "3",
+              "2,92,578"
+            ],
+            [
+              "Dr. B.N.M. Rural Ayurveda Medical College",
+              "Vijayapura",
+              "Private",
+              "₹75,000",
+              "4",
+              "2,92,862"
+            ],
+            [
+              "Rajashekaraiah Institute of Ayurvedic Medical Science",
+              "Solur, Magadi, Ramanagara",
+              "Private",
+              "₹75,000",
+              "9",
+              "2,95,428"
+            ],
+            [
+              "Sri Raghavendra Ayurveda Medical College and Hospital",
+              "Holalkere, Chitradurga",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,97,188"
+            ],
+            [
+              "Rajeshwari Karpurmath Memorial Ayurvedic Medical College",
+              "Vijayapura",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,97,559"
+            ],
+            [
+              "Rajarajeswari Ayurvedic Medical College and Hospital",
+              "Humnabad, Bidar",
+              "Private",
+              "₹75,000",
+              "4",
+              "2,97,849"
+            ],
+            [
+              "S.G.V. Ayurvedic Medical College",
+              "Bailhongal, Belagavi",
+              "Private",
+              "₹75,000",
+              "5",
+              "2,98,884"
+            ],
+            [
+              "MRN Ayurvedic Medical College",
+              "Navanagar, Bagalkote",
+              "Private",
+              "₹75,000",
+              "6",
+              "2,99,992"
+            ],
+            [
+              "Spoorthi Ayurveda Medical College",
+              "Gangavathi, Koppal",
+              "Private",
+              "₹75,000",
+              "3",
+              "3,03,434"
+            ],
+            [
+              "Krishna Ayurvedic Medical College and Hospital",
+              "Sankeshwar, Belagavi",
+              "Private",
+              "₹75,000",
+              "7",
+              "3,06,015"
+            ],
+            [
+              "Grameen Ayurvedic Medical College",
+              "Terdal, Jamkhandi, Bagalkote",
+              "Private",
+              "₹75,000",
+              "5",
+              "3,07,339"
+            ],
+            [
+              "Acharya Deshabhushana Ayurvedic Medical College",
+              "Bedkihal, Chikkodi, Belagavi",
+              "Private",
+              "₹75,000",
+              "5",
+              "3,13,966"
+            ],
+            [
+              "Bhagwan Mahaveer Jain Ayurvedic Medical College",
+              "Gajendragad, Gadag",
+              "Private",
+              "₹75,000",
+              "5",
+              "3,14,309"
+            ],
+            [
+              "Prasanna College of Ayurveda and Hospital",
+              "Belthangady, Dakshina Kannada",
+              "Private",
+              "₹75,000",
+              "10",
+              "3,14,901"
+            ],
+            [
+              "Kundapura Rural Ayurveda Medical College",
+              "Kundapura, Udupi",
+              "Private",
+              "₹75,000",
+              "9",
+              "3,17,092"
+            ],
+            [
+              "Dhanwantri Ayurvedic Medical College",
+              "Siddapur, Uttara Kannada",
+              "Private",
+              "₹75,000",
+              "8",
+              "3,17,859"
+            ],
+            [
+              "Shri Bidarur Institute of Ayurveda and Hospital",
+              "Gadag",
+              "Private",
+              "₹75,000",
+              "3",
+              "3,18,774"
+            ],
+            [
+              "Shri Kalidasa Ayurvedic Medical College",
+              "Badami, Bagalkote",
+              "Private",
+              "₹75,000",
+              "5",
+              "3,24,770"
+            ],
+            [
+              "A.G.M Ayurvedic Medical College",
+              "Algur, Jamkhandi, Bagalkote",
+              "Private",
+              "₹75,000",
+              "7",
+              "3,32,228"
+            ],
+            [
+              "Smt. Shantadevi Memorial Ayurveda Medical College",
+              "Badagandi, Bilagi, Bagalkote",
+              "Private",
+              "₹75,000",
+              "7",
+              "3,32,876"
+            ],
+            [
+              "Rural Ayurvedic Medical College, Badami",
+              "Badami, Bagalkote",
+              "Private",
+              "₹75,000",
+              "7",
+              "3,41,199"
+            ],
+            [
+              "Neelganga Ayurvedic Medical College",
+              "Basavakalyan, Bidar",
+              "Private",
+              "₹75,000",
+              "2",
+              "3,45,256"
+            ]
+          ],
+          "sources": [
+            {
+              "label": "KEA UGNEET 2026 AYUSH Round 1 final allotment list (16 Oct 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/ayurveda/kea/kea-ugneet-2026-ayush-round-1-final-allotment-2026-10-16.pdf"
+            },
+            {
+              "label": "KEA official website",
+              "url": "https://kea.kar.nic.in/"
+            }
+          ],
+          "lastVerified": "2026-10-21"
+        },
+        {
+          "type": "note",
+          "html": "Data: KEA UGNEET 2026 AYUSH Round 1 final allotment list, only BAMS government-quota seats (course code ending AG) in the exact GM category. GM seats allotted is a count from the list, not KEA's seat matrix. Type is inferred from the KEA fee. – means no GM government seat was allotted at that college in Round 1."
+        },
+        {
+          "type": "heading",
+          "html": "How Admission Works"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "aaccc-ug-counselling",
+              "title": "AACCC counselling (national institutes and 15% All India Quota)",
+              "tag": {
+                "text": "Guide",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "list",
+                  "items": [
+                    "AACCC fills 15% of seats at government and aided Ayurveda colleges in every state, and the national institute seats in the table above. Seats go by NEET UG 2026 rank.",
+                    "There are four rounds: Round 1, Round 2, Round 3 and a Stray Vacancy Round (in two phases). Seats left after Round 3 go to the Stray Vacancy Round.",
+                    "At registration you pick a counselling type. For government, aided and national-institute seats you pay a non-refundable fee of ₹1,000 (₹500 for SC, ST and PwBD) plus a refundable security deposit of ₹20,000. Deemed universities cost ₹5,000 plus ₹50,000.",
+                    "Each round has a provisional result first, then a final result. Requests about the allotment are accepted only before the final result.",
+                    "Free exit (leaving without penalty) applies to Round 1 seats. From Round 2 onward, not joining an allotted seat or leaving it forfeits the security deposit.",
+                    "A seat allotted in Round 3 or the Stray Vacancy Round cannot be left. A candidate who leaves it loses the fees and becomes ineligible for every Ayush UG counselling, central or state, for that year.",
+                    "AACCC does not set college fees. The bulletin asks candidates to confirm fees, bond and stipend with each college before choosing it."
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "AACCC UG information bulletin 2026-27",
+                  "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/ayurveda/aaccc/aaccc-ug-2026-27-information-bulletin-2026-08-31.pdf"
+                },
+                {
+                  "label": "AACCC official website",
+                  "url": "https://aaccc.gov.in/"
+                }
+              ],
+              "lastVerified": "2026-10-21"
+            },
+            {
+              "id": "kea-ayush-counselling",
+              "title": "KEA counselling (Karnataka BAMS seats)",
+              "tag": {
+                "text": "Guide",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "list",
+                  "items": [
+                    "KEA fills Karnataka's government-quota BAMS seats at government, aided and private colleges, using the same NEET UG rank. Karnataka state-quota eligibility rules apply.",
+                    "The KEA AYUSH list is separate from the MBBS list. In 2026 the AYUSH Round 1 final list came out on 16 October, ten days after the KEA MBBS Round 3 list (6 October).",
+                    "The fee shown in the table is KEA's government-seat fee. Private-quota and management seats at the same colleges cost more (₹3,00,000 a year for a private-quota BAMS seat in the 2026 list).",
+                    "The MBBS tab explains the KEA round choices (accept, upgrade, give up, exit). Check KEA's AYUSH notices for the AYUSH dates, which differ from MBBS."
+                  ]
+                }
+              ],
+              "sources": [
+                {
+                  "label": "KEA UGNEET 2026 AYUSH Round 1 final allotment list (16 Oct 2026)",
+                  "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/ayurveda/kea/kea-ugneet-2026-ayush-round-1-final-allotment-2026-10-16.pdf"
+                },
+                {
+                  "label": "KEA official website",
+                  "url": "https://kea.kar.nic.in/"
+                }
+              ],
+              "lastVerified": "2026-10-21"
             }
           ]
         }
