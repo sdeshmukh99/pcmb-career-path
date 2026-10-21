@@ -472,6 +472,13 @@
     font-weight: 500;
   }
   .load-error { margin-top: 12px; }
+  .sub-h { font-size: 18px; margin: 18px 0 6px; color: var(--army-dark); }
+  td a { color: var(--olive); }
+  table.wide { min-width: 760px; }
+  th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  th.sortable::after { content: ' \2195'; opacity: 0.5; }
+  th.sortable[aria-sort="ascending"]::after { content: ' \25B2'; opacity: 1; }
+  th.sortable[aria-sort="descending"]::after { content: ' \25BC'; opacity: 1; }
 </style>
 </head>
 <body>
@@ -573,21 +580,54 @@
   function renderTable(b) {
     const frag = document.createDocumentFragment();
     const wrap = el('div', 'table-wrap');
-    const table = el('table');
+    const table = el('table', b.wide ? 'wide' : '');
     const thead = el('thead');
     const hr = el('tr');
     b.columns.forEach(c => { const th = el('th'); th.textContent = c; hr.appendChild(th); });
     thead.appendChild(hr);
     const tbody = el('tbody');
-    b.rows.forEach(r => {
+    const trs = b.rows.map(r => {
       const tr = el('tr');
       r.forEach(c => tr.appendChild(el('td', '', c)));
       tbody.appendChild(tr);
+      return tr;
     });
     table.append(thead, tbody);
     wrap.appendChild(table);
+    if (b.sortable) makeSortable(hr, tbody, b.sortExclude === 'last' ? trs.slice(0, -1) : trs);
     frag.append(wrap, sourceLine(b));
     return frag;
+  }
+
+  // Numbers sort numerically ("₹1,53,571" -> 153571); "–" and blanks always go last.
+  function sortKey(text) {
+    const t = text.trim();
+    if (t === '' || t === '–') return null;
+    const n = t.replace(/[₹,\s]/g, '');
+    return /^\d+(\.\d+)?$/.test(n) ? Number(n) : t.toLowerCase();
+  }
+
+  function makeSortable(headRow, tbody, rows) {
+    const fixed = Array.from(tbody.children).filter(tr => !rows.includes(tr));
+    Array.from(headRow.children).forEach((th, col) => {
+      th.classList.add('sortable');
+      th.tabIndex = 0;
+      const sort = () => {
+        const dir = th.getAttribute('aria-sort') === 'ascending' ? -1 : 1;
+        headRow.querySelectorAll('th').forEach(h => h.removeAttribute('aria-sort'));
+        th.setAttribute('aria-sort', dir === 1 ? 'ascending' : 'descending');
+        const keyed = rows.map(tr => [sortKey(tr.children[col].textContent), tr]);
+        keyed.sort((a, b) => {
+          if (a[0] === null || b[0] === null) return (a[0] === null) - (b[0] === null);
+          if (typeof a[0] !== typeof b[0]) return typeof a[0] === 'number' ? -1 : 1;
+          return (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0) * dir;
+        });
+        keyed.forEach(([, tr]) => tbody.appendChild(tr));
+        fixed.forEach(tr => tbody.appendChild(tr));
+      };
+      th.addEventListener('click', sort);
+      th.addEventListener('keydown', ev => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); sort(); } });
+    });
   }
 
   function renderBlock(b) {
@@ -596,6 +636,8 @@
       case 'heading': return el('h2', 'section-h', b.html);
       case 'path': return el('div', 'path-line', b.html);
       case 'lead': return el('p', 'section-lead', b.html);
+      case 'subheading': return el('h3', 'sub-h', b.html);
+      case 'callout': return el('div', 'callout', b.html);
       case 'note': return el('p', 'note' + (b.spaced ? ' spaced' : ''), b.html);
       case 'table': return renderTable(b);
       case 'accordion': {

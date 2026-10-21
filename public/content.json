@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "1.6",
+    "version": "1.7",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -907,7 +907,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "<strong>Open-category cutoff:</strong> ESIC Bangalore closes around AIR 8,000-15,000 in recent cycles."
+                  "html": "<strong>KEA 2026 state-quota GM government seat:</strong> closing AIR 11,745 (Round 1), 12,547 (Round 2), 13,540 (Round 3); fee ₹1,09,350 a year. See the Karnataka table below."
                 }
               ],
               "sources": [],
@@ -944,77 +944,1063 @@
         },
         {
           "type": "heading",
-          "html": "Karnataka Government Colleges (State Quota Advantage)"
+          "html": "Karnataka MBBS Colleges (KEA Government Seat, General Merit)"
         },
         {
           "type": "lead",
-          "html": "Karnataka has 24 govt medical colleges, ~4,250 MBBS seats. <strong>85% reserved for Karnataka domicile</strong> via KEA counselling — the single biggest advantage for Karnataka-domicile students. Fees ~₹64,000/year. All cutoffs below are <strong>Open Category, State Quota, General Merit</strong>."
+          "html": "68 colleges offered KEA government-quota (GMG) MBBS seats in 2026: 23 government, 2 ESIC and 43 private. These seats are filled through KEA counselling for candidates eligible under Karnataka's state-quota rules. The fee for a government seat is fixed by KEA: <strong>₹64,350 a year at government colleges</strong>, ₹1,09,350 at ESIC colleges, and usually <strong>₹1,53,571 or ₹1,56,621 at private colleges</strong> (a few private colleges differ; see the table)."
+        },
+        {
+          "type": "callout",
+          "html": "<strong>How to read the cutoffs:</strong> each cutoff is the highest NEET All India Rank that got a General Merit (GM) government seat at that college in that round. If your rank is lower (better) than a college's cutoff, that college was within reach in that round. Example: with rank 10,000, BMCRI (2,655) was out of reach in Round 1, while ESIC Bengaluru (11,745) was within reach. Cutoffs move every year, so treat them as a guide."
+        },
+        {
+          "type": "subheading",
+          "html": "Summary by district"
         },
         {
           "type": "table",
+          "sortable": true,
           "columns": [
-            "College",
-            "City",
-            "Open Cutoff (NEET 2025)"
+            "District",
+            "Colleges",
+            "Government",
+            "ESIC",
+            "Private",
+            "GM govt seats"
           ],
           "rows": [
             [
-              "BMCRI",
-              "Bangalore",
-              "640+ / Rank ~3,500"
+              "Bengaluru",
+              "15",
+              "2",
+              "1",
+              "12",
+              "511"
             ],
             [
-              "MMCRI",
+              "Dakshina Kannada",
+              "10",
+              "0",
+              "0",
+              "10",
+              "190"
+            ],
+            [
               "Mysuru",
-              "620+ / Rank ~7,000"
+              "3",
+              "1",
+              "0",
+              "2",
+              "104"
             ],
             [
-              "KIMS",
-              "Hubli",
-              "600+ / Rank ~12,000"
+              "Dharwad",
+              "3",
+              "1",
+              "0",
+              "2",
+              "104"
             ],
             [
-              "VIMS",
-              "Bellary",
-              "580+ / Rank ~18,000"
-            ],
-            [
-              "SIMS",
-              "Shivamogga",
-              "570+ / Rank ~22,000"
-            ],
-            [
-              "HIMS",
-              "Hassan",
-              "560+ / Rank ~25,000"
-            ],
-            [
-              "BIMS",
-              "Belagavi",
-              "560+ / Rank ~26,000"
-            ],
-            [
-              "RIMS",
-              "Raichur",
-              "540+ / Rank ~32,000"
-            ],
-            [
-              "Mandya IMS",
               "Mandya",
-              "540+ / Rank ~30,000"
+              "2",
+              "1",
+              "0",
+              "1",
+              "97"
             ],
             [
-              "GIMS Gadag, KIMS Koppal, CIMS Chamarajanagar, Karwar IMS",
-              "Various",
-              "520-540 / Rank 35-50K"
+              "Bagalkote",
+              "3",
+              "1",
+              "0",
+              "2",
+              "79"
+            ],
+            [
+              "Chitradurga",
+              "2",
+              "1",
+              "0",
+              "1",
+              "74"
+            ],
+            [
+              "Tumakuru",
+              "2",
+              "0",
+              "0",
+              "2",
+              "74"
+            ],
+            [
+              "Davanagere",
+              "2",
+              "0",
+              "0",
+              "2",
+              "73"
+            ],
+            [
+              "Shivamogga",
+              "2",
+              "1",
+              "0",
+              "1",
+              "68"
+            ],
+            [
+              "Belagavi",
+              "2",
+              "1",
+              "0",
+              "1",
+              "62"
+            ],
+            [
+              "Hassan",
+              "1",
+              "1",
+              "0",
+              "0",
+              "59"
+            ],
+            [
+              "Gadag",
+              "1",
+              "1",
+              "0",
+              "0",
+              "58"
+            ],
+            [
+              "Uttara Kannada",
+              "1",
+              "1",
+              "0",
+              "0",
+              "58"
+            ],
+            [
+              "Ramanagara",
+              "2",
+              "0",
+              "0",
+              "2",
+              "54"
+            ],
+            [
+              "Chikkaballapura",
+              "2",
+              "1",
+              "0",
+              "1",
+              "50"
+            ],
+            [
+              "Chikkamagaluru",
+              "1",
+              "1",
+              "0",
+              "0",
+              "48"
+            ],
+            [
+              "Chamarajanagar",
+              "1",
+              "1",
+              "0",
+              "0",
+              "47"
+            ],
+            [
+              "Haveri",
+              "1",
+              "1",
+              "0",
+              "0",
+              "47"
+            ],
+            [
+              "Kodagu",
+              "1",
+              "1",
+              "0",
+              "0",
+              "46"
+            ],
+            [
+              "Kalaburagi",
+              "4",
+              "1",
+              "1",
+              "2",
+              "42"
+            ],
+            [
+              "Raichur",
+              "2",
+              "1",
+              "0",
+              "1",
+              "26"
+            ],
+            [
+              "Ballari",
+              "1",
+              "1",
+              "0",
+              "0",
+              "23"
+            ],
+            [
+              "Bidar",
+              "1",
+              "1",
+              "0",
+              "0",
+              "20"
+            ],
+            [
+              "Koppal",
+              "1",
+              "1",
+              "0",
+              "0",
+              "20"
+            ],
+            [
+              "Yadgir",
+              "1",
+              "1",
+              "0",
+              "0",
+              "16"
+            ],
+            [
+              "Vijayapura",
+              "1",
+              "0",
+              "0",
+              "1",
+              "13"
+            ],
+            [
+              "<strong>All Karnataka</strong>",
+              "<strong>68</strong>",
+              "<strong>23</strong>",
+              "<strong>2</strong>",
+              "<strong>43</strong>",
+              "<strong>2,063</strong>"
             ]
           ],
-          "sources": [],
-          "lastVerified": null
+          "sortExclude": "last",
+          "sources": [
+            {
+              "label": "KEA UGNEET 2026 Round 1 final allotment list (28 Aug 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/KEA-UG-NEET-2026-MEDICAL-1st-ROUND-FINAL-SEAT-ALLOTMENT-LIST-.pdf"
+            },
+            {
+              "label": "KEA Round 2 final allotment list (16 Sep 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/UGNEET_ALLOT_2026_2nd_MFINAL_16092026_R2_SECONDenglish%20(1).pdf"
+            },
+            {
+              "label": "KEA Round 3 final allotment list (6 Oct 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/UGNEET_ALLOT_2026_3rd_MFINAL_06102026_R3english_76becbbd8c1e7eaf230f25d1e66b7056.pdf"
+            },
+            {
+              "label": "KEA official website",
+              "url": "https://kea.kar.nic.in/"
+            }
+          ],
+          "lastVerified": "2026-10-21"
+        },
+        {
+          "type": "subheading",
+          "html": "All colleges (sorted by Round 1 cutoff)"
+        },
+        {
+          "type": "table",
+          "sortable": true,
+          "wide": true,
+          "columns": [
+            "College",
+            "Location",
+            "Type",
+            "Govt-seat fee / yr",
+            "GM seats",
+            "2026 R1 cutoff",
+            "R2 cutoff",
+            "R3 cutoff"
+          ],
+          "rows": [
+            [
+              "Bangalore Medical College and Research Institute (BMCRI)",
+              "Bengaluru, K R Road",
+              "Government",
+              "₹64,350",
+              "76",
+              "2,655",
+              "3,550",
+              "4,060"
+            ],
+            [
+              "Mysore Medical College and Research Institute",
+              "Mysuru",
+              "Government",
+              "₹64,350",
+              "71",
+              "6,539",
+              "8,022",
+              "9,461"
+            ],
+            [
+              "Shri Atal Bihari Vajpayee Medical College and Research Institute",
+              "Bengaluru",
+              "Government",
+              "₹64,350",
+              "57",
+              "8,022",
+              "9,825",
+              "10,999"
+            ],
+            [
+              "Kasturba Medical College",
+              "Mangaluru",
+              "Private",
+              "₹1,53,571",
+              "17",
+              "9,426",
+              "10,053",
+              "–"
+            ],
+            [
+              "ESIC Medical College, Bengaluru",
+              "Bengaluru, Rajajinagar",
+              "ESIC (central govt)",
+              "₹1,09,350",
+              "20",
+              "11,745",
+              "12,547",
+              "13,540"
+            ],
+            [
+              "M S Ramaiah Medical College",
+              "Bengaluru, MSR Nagar",
+              "Private",
+              "₹1,56,621",
+              "29",
+              "12,100",
+              "12,761",
+              "13,322"
+            ],
+            [
+              "JSS Medical College (Jagadguru Sri Shivarathreeswara)",
+              "Mysuru",
+              "Private",
+              "₹1,53,571",
+              "5",
+              "12,456",
+              "14,468",
+              "–"
+            ],
+            [
+              "Karnataka Institute of Medical Sciences (KIMS)",
+              "Hubballi",
+              "Government",
+              "₹64,350",
+              "71",
+              "12,840",
+              "14,847",
+              "16,468"
+            ],
+            [
+              "Kempegowda Institute of Medical Sciences",
+              "Bengaluru, Banashankari",
+              "Private",
+              "₹1,53,571",
+              "34",
+              "18,046",
+              "19,771",
+              "19,577"
+            ],
+            [
+              "Mandya Institute of Medical Sciences",
+              "Mandya",
+              "Government",
+              "₹64,350",
+              "59",
+              "18,335",
+              "21,231",
+              "21,723"
+            ],
+            [
+              "Vijayanagar Institute of Medical Sciences",
+              "Ballari",
+              "Government",
+              "₹64,350",
+              "23",
+              "20,998",
+              "22,423",
+              "20,732"
+            ],
+            [
+              "Father Muller Medical College",
+              "Mangaluru",
+              "Private",
+              "₹1,53,571",
+              "15",
+              "22,048",
+              "27,041",
+              "29,027"
+            ],
+            [
+              "Jawaharlal Nehru Medical College",
+              "Belagavi",
+              "Private",
+              "₹1,56,621",
+              "5",
+              "22,969",
+              "28,089",
+              "28,848"
+            ],
+            [
+              "Belagavi Institute of Medical Sciences",
+              "Belagavi",
+              "Government",
+              "₹64,350",
+              "57",
+              "23,126",
+              "26,321",
+              "26,998"
+            ],
+            [
+              "Hassan Institute of Medical Sciences",
+              "Hassan",
+              "Government",
+              "₹64,350",
+              "59",
+              "24,799",
+              "26,687",
+              "28,115"
+            ],
+            [
+              "Shimoga Institute of Medical Sciences",
+              "Shivamogga",
+              "Government",
+              "₹64,350",
+              "46",
+              "25,037",
+              "26,099",
+              "26,731"
+            ],
+            [
+              "Vydehi Institute of Medical Sciences and Research Centre",
+              "Bengaluru, Whitefield (EPIP Area)",
+              "Private",
+              "₹1,53,571",
+              "23",
+              "26,229",
+              "31,673",
+              "31,673"
+            ],
+            [
+              "Gulbarga Institute of Medical Sciences",
+              "Kalaburagi",
+              "Government",
+              "₹64,350",
+              "19",
+              "27,047",
+              "30,633",
+              "34,674"
+            ],
+            [
+              "ESIC Medical College, Kalaburagi",
+              "Kalaburagi",
+              "ESIC (central govt)",
+              "₹1,09,350",
+              "7",
+              "30,892",
+              "31,381",
+              "31,381"
+            ],
+            [
+              "SDM College of Medical Sciences and Hospital",
+              "Dharwad",
+              "Private",
+              "₹1,56,621",
+              "20",
+              "31,595",
+              "33,441",
+              "33,441"
+            ],
+            [
+              "K S Hegde Medical Academy",
+              "Mangaluru",
+              "Private",
+              "₹1,56,621",
+              "14",
+              "32,419",
+              "33,513",
+              "36,342"
+            ],
+            [
+              "J J M Medical College",
+              "Davanagere",
+              "Private",
+              "₹1,53,571",
+              "36",
+              "38,439",
+              "42,292",
+              "43,571"
+            ],
+            [
+              "Chamarajanagar Institute of Medical Sciences",
+              "Chamarajanagar",
+              "Government",
+              "₹64,350",
+              "47",
+              "38,942",
+              "41,242",
+              "43,088"
+            ],
+            [
+              "BGS Global Institute of Medical Sciences",
+              "Bengaluru, Kengeri",
+              "Private",
+              "₹1,53,571",
+              "37",
+              "39,436",
+              "42,217",
+              "43,485"
+            ],
+            [
+              "Raichur Institute of Medical Sciences",
+              "Raichur",
+              "Government",
+              "₹64,350",
+              "19",
+              "41,059",
+              "43,633",
+              "50,101"
+            ],
+            [
+              "K H Patil Institute of Medical Sciences (formerly Gadag IMS)",
+              "Gadag",
+              "Government",
+              "₹64,350",
+              "58",
+              "41,241",
+              "42,413",
+              "43,609"
+            ],
+            [
+              "A J Institute of Medical Sciences",
+              "Mangaluru",
+              "Private",
+              "₹1,53,571",
+              "22",
+              "42,080",
+              "51,186",
+              "52,056"
+            ],
+            [
+              "Bidar Institute of Medical Sciences",
+              "Bidar",
+              "Government",
+              "₹64,350",
+              "20",
+              "46,982",
+              "48,652",
+              "47,144"
+            ],
+            [
+              "Nandi Medical College and Research Institute (formerly Chikkaballapura IMS)",
+              "Chikkaballapura",
+              "Government",
+              "₹64,350",
+              "42",
+              "47,973",
+              "50,259",
+              "54,008"
+            ],
+            [
+              "Yenepoya Medical College",
+              "Mangaluru",
+              "Private",
+              "₹1,56,621",
+              "14",
+              "49,034",
+              "51,674",
+              "44,971"
+            ],
+            [
+              "Dr B R Ambedkar Medical College",
+              "Bengaluru, Kadugondanahalli",
+              "Private",
+              "₹1,53,571",
+              "20",
+              "49,045",
+              "52,926",
+              "52,926"
+            ],
+            [
+              "Koppal Institute of Medical Sciences",
+              "Koppal",
+              "Government",
+              "₹64,350",
+              "20",
+              "49,381",
+              "52,348",
+              "53,074"
+            ],
+            [
+              "Kodagu Institute of Medical Sciences",
+              "Madikeri, Kodagu",
+              "Government",
+              "₹64,350",
+              "46",
+              "49,500",
+              "50,377",
+              "51,583"
+            ],
+            [
+              "PES University Institute of Medical Sciences and Research",
+              "Bengaluru, Electronic City",
+              "Private",
+              "₹1,56,621",
+              "38",
+              "54,140",
+              "58,216",
+              "56,157"
+            ],
+            [
+              "Karwar Institute of Medical Sciences",
+              "Karwar, Uttara Kannada",
+              "Government",
+              "₹64,350",
+              "58",
+              "55,392",
+              "58,131",
+              "60,697"
+            ],
+            [
+              "Chikkamagaluru Institute of Medical Sciences",
+              "Chikkamagaluru",
+              "Government",
+              "₹64,350",
+              "48",
+              "58,877",
+              "60,043",
+              "60,043"
+            ],
+            [
+              "S S Institute of Medical Sciences",
+              "Davanagere",
+              "Private",
+              "₹1,53,571",
+              "37",
+              "62,484",
+              "64,003",
+              "64,244"
+            ],
+            [
+              "Dr Chandramma Dayananda Sagar Institute of Medical Education and Research",
+              "Harohalli, Kanakapura Road",
+              "Private",
+              "₹1,56,621",
+              "30",
+              "63,322",
+              "66,108",
+              "64,163"
+            ],
+            [
+              "Haveri Institute of Medical Sciences",
+              "Haveri",
+              "Government",
+              "₹64,350",
+              "47",
+              "63,388",
+              "64,330",
+              "64,330"
+            ],
+            [
+              "Adichunchanagiri Institute of Medical Sciences",
+              "B G Nagara, Mandya district",
+              "Private",
+              "₹1,56,621",
+              "38",
+              "64,698",
+              "65,560",
+              "67,690"
+            ],
+            [
+              "Yadgiri Institute of Medical Sciences",
+              "Yadgir",
+              "Government",
+              "₹64,350",
+              "16",
+              "65,535",
+              "69,876",
+              "71,176"
+            ],
+            [
+              "Chitradurga Medical College and Research Institute",
+              "Chitradurga",
+              "Government",
+              "₹64,350",
+              "45",
+              "68,251",
+              "69,568",
+              "69,568"
+            ],
+            [
+              "Siddaganga Medical College and Research Institute",
+              "Tumakuru",
+              "Private",
+              "₹1,53,571",
+              "37",
+              "71,141",
+              "73,058",
+              "72,991"
+            ],
+            [
+              "M V J Medical College and Research Hospital",
+              "Bengaluru, Channasandra (NH-4)",
+              "Private",
+              "₹1,53,571",
+              "24",
+              "71,177",
+              "74,909",
+              "75,735"
+            ],
+            [
+              "BGS Medical College and Hospital",
+              "Bengaluru",
+              "Private",
+              "₹1,56,621",
+              "35",
+              "72,213",
+              "75,612",
+              "77,855"
+            ],
+            [
+              "Sapthagiri Institute of Medical Sciences",
+              "Bengaluru, Chikkasandra",
+              "Private",
+              "₹1,82,371",
+              "36",
+              "73,763",
+              "77,071",
+              "77,355"
+            ],
+            [
+              "Mahadevappa Rampure Medical College",
+              "Kalaburagi",
+              "Private",
+              "₹1,53,571",
+              "12",
+              "73,924",
+              "74,996",
+              "76,530"
+            ],
+            [
+              "S Nijalingappa Medical College",
+              "Bagalkote",
+              "Private",
+              "₹1,53,571",
+              "38",
+              "75,840",
+              "78,520",
+              "78,221"
+            ],
+            [
+              "Subbaiah Institute of Medical Sciences",
+              "Shivamogga",
+              "Private",
+              "₹1,53,571",
+              "22",
+              "76,371",
+              "80,849",
+              "80,849"
+            ],
+            [
+              "Sri Madhusudan Sai Institute of Medical Sciences and Research",
+              "Muddenahalli, Chikkaballapura",
+              "Private",
+              "₹0",
+              "8",
+              "77,524",
+              "87,277",
+              "–"
+            ],
+            [
+              "East Point College of Medical Sciences and Research Centre",
+              "Bengaluru",
+              "Private",
+              "₹1,53,571",
+              "38",
+              "79,424",
+              "82,991",
+              "84,773"
+            ],
+            [
+              "The Oxford Medical College, Hospital and Research Centre",
+              "Bengaluru, Attibele",
+              "Private",
+              "₹1,53,571",
+              "21",
+              "80,579",
+              "84,400",
+              "87,157"
+            ],
+            [
+              "Akash Institute of Medical Sciences and Research Centre",
+              "Devanahalli, Bengaluru Rural",
+              "Private",
+              "₹1,53,571",
+              "23",
+              "81,468",
+              "85,051",
+              "84,058"
+            ],
+            [
+              "Sri Basaveshwara Medical College and Hospital",
+              "Chitradurga",
+              "Private",
+              "₹1,56,621",
+              "29",
+              "82,596",
+              "87,568",
+              "87,677"
+            ],
+            [
+              "Navodaya Medical College",
+              "Raichur",
+              "Private",
+              "₹1,53,571",
+              "7",
+              "83,847",
+              "87,803",
+              "89,097"
+            ],
+            [
+              "Sri Chamundeshwari Medical College, Hospital and Research Institute",
+              "Channapatna, Ramanagara",
+              "Private",
+              "₹1,53,571",
+              "24",
+              "85,705",
+              "87,841",
+              "87,627"
+            ],
+            [
+              "Shridevi Institute of Medical Sciences and Research Hospital",
+              "Tumakuru",
+              "Private",
+              "₹1,53,571",
+              "37",
+              "86,162",
+              "88,704",
+              "88,592"
+            ],
+            [
+              "K V G Medical College and Hospital",
+              "Sullia, Dakshina Kannada",
+              "Private",
+              "₹1,53,571",
+              "23",
+              "87,176",
+              "90,168",
+              "94,649"
+            ],
+            [
+              "Kanachur Institute of Medical Sciences",
+              "Mangaluru",
+              "Private",
+              "₹1,53,571",
+              "22",
+              "87,994",
+              "91,589",
+              "93,217"
+            ],
+            [
+              "Khaja Bande Navaz Institute of Medical Sciences",
+              "Kalaburagi",
+              "Private",
+              "₹1,56,621",
+              "4",
+              "88,227",
+              "93,217",
+              "95,180"
+            ],
+            [
+              "Srinivas Institute of Medical Sciences and Research Centre",
+              "Mangaluru",
+              "Private",
+              "₹1,66,621",
+              "35",
+              "88,415",
+              "90,946",
+              "90,989"
+            ],
+            [
+              "Alva's Institute of Medical Sciences and Research Centre",
+              "Dakshina Kannada",
+              "Private",
+              "₹1,53,571",
+              "14",
+              "89,439",
+              "93,367",
+              "93,367"
+            ],
+            [
+              "S R Patil Medical College, Hospital and Research Centre",
+              "Badagandi, Bagalkote",
+              "Private",
+              "₹1,53,571",
+              "14",
+              "89,614",
+              "92,329",
+              "93,679"
+            ],
+            [
+              "Jagadguru Gangadhar Mahaswamigalu Moorusavirmath Medical College",
+              "Dharwad",
+              "Private",
+              "₹6,09,084",
+              "13",
+              "91,120",
+              "92,029",
+              "92,029"
+            ],
+            [
+              "Farookh Academy of Medical Education, Hospital and Research Institute",
+              "Hunsur taluk, Mysuru district",
+              "Private",
+              "₹1,53,571",
+              "28",
+              "91,493",
+              "95,258",
+              "96,183"
+            ],
+            [
+              "Al-Ameen Medical College",
+              "Vijayapura",
+              "Private",
+              "₹1,53,571",
+              "13",
+              "91,535",
+              "94,383",
+              "92,339"
+            ],
+            [
+              "G R Medical College Hospital and Research Centre",
+              "Mangaluru",
+              "Private",
+              "₹1,53,571",
+              "14",
+              "91,548",
+              "96,554",
+              "97,676"
+            ],
+            [
+              "Bagalkote Medical College and Research Institute",
+              "Bagalkote",
+              "Government",
+              "₹64,350",
+              "27",
+              "–",
+              "78,569",
+              "78,580"
+            ]
+          ],
+          "sources": [
+            {
+              "label": "KEA UGNEET 2026 Round 1 final allotment list (28 Aug 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/KEA-UG-NEET-2026-MEDICAL-1st-ROUND-FINAL-SEAT-ALLOTMENT-LIST-.pdf"
+            },
+            {
+              "label": "KEA Round 2 final allotment list (16 Sep 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/UGNEET_ALLOT_2026_2nd_MFINAL_16092026_R2_SECONDenglish%20(1).pdf"
+            },
+            {
+              "label": "KEA Round 3 final allotment list (6 Oct 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/UGNEET_ALLOT_2026_3rd_MFINAL_06102026_R3english_76becbbd8c1e7eaf230f25d1e66b7056.pdf"
+            },
+            {
+              "label": "KEA official website",
+              "url": "https://kea.kar.nic.in/"
+            }
+          ],
+          "lastVerified": "2026-10-21"
         },
         {
           "type": "note",
-          "html": "Source: KEA NEET 2025 closing ranks, State Quota General Merit. Targets for NEET 2027 will be similar ±5%."
+          "html": "Data: KEA UGNEET 2026 final allotment lists, only government-quota seats (course code ending MG) in the exact GM category. GM seats = GM government seats filled after Round 2, counted from the lists; KEA's official seat matrix may differ slightly. The Round 3 list covers only candidates who took part in Round 3, so a Round 3 cutoff can be lower than Round 2. – means no GM government seat was allotted at that college in that round (Bagalkote Medical College first appears in Round 2). Type is inferred from the KEA fee. Fees are as listed by KEA, including ₹0 at Sri Madhusudan Sai and ₹6,09,084 at Jagadguru Gangadhar Mahaswamigalu Moorusavirmath Medical College. Tap a column heading to sort."
+        },
+        {
+          "type": "heading",
+          "html": "How KEA Admission Works"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "kea-admission-steps",
+              "title": "KEA MBBS counselling, step by step",
+              "tag": {
+                "text": "Guide",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>Before NEET results:</strong> list only the KEA government-seat (GMG) colleges you would accept, in order of your own priorities (safety, hygiene, location, fees). Do not order them by cutoff.",
+                    "<strong>After NEET results:</strong> compare your All India Rank with the 2026 cutoffs in the table above. Round 1 shows early chances; Rounds 2 and 3 show later chances. Keep ambitious colleges above realistic backups.",
+                    "<strong>Register and verify documents</strong> on KEA's dates, even if registration opens before NEET results. Then enter, save and submit your college list.",
+                    "<strong>Mock allotment:</strong> a practice result only. Correct your list before the editing deadline.",
+                    "<strong>After Round 1, pick one choice:</strong> Choice 1 = accept the seat and stop; Choice 2 = keep the seat and try for a college higher on your list; Choice 3 = give up the seat and try again; Choice 4 = leave counselling. Pay fees and finish formalities by the deadline. Sources differ on whether Choice 2 needs the full fee upfront; check KEA's notice.",
+                    "<strong>How Choice 2 works:</strong> if your list is A → B → C → D and you get C, you can be upgraded to A or B. If you are upgraded to B, C is released automatically; if not, you keep C. Confirm in KEA's notice whether lower options (D) are excluded.",
+                    "<strong>After Round 2:</strong> pay and report within the deadlines. Do not give up an acceptable seat hoping for Round 3: in 2026, surrendering a seat after Round 2 carried penalties (₹5,000 and up, and reportedly up to ₹1 lakh later). Round 3 rules change each year."
+                  ]
+                },
+                {
+                  "type": "note",
+                  "html": "KEA's official notice for your year (kea.kar.nic.in) always overrides this guide. These steps were cross-checked against news and counselling sites, not KEA's own rulebook."
+                }
+              ],
+              "sources": [
+                {
+                  "label": "KEA official website",
+                  "url": "https://kea.kar.nic.in/"
+                },
+                {
+                  "label": "Edufever: KEA counselling 2026 schedule",
+                  "url": "https://www.edufever.com/kea-counselling-2026-ugcet-ugneet-seat-allotment-schedule-released/"
+                },
+                {
+                  "label": "HelloMentor: KEA 2026 Round 1 choices",
+                  "url": "https://temp.hellomentor.in/news-blogs/kea-neet-ug-counselling-2026-choice-selection-round-1-choices-"
+                },
+                {
+                  "label": "HelloMentor: Choice 2 hold and upgrade",
+                  "url": "https://hellomentor.in/news-blogs/news/kea-neet-ug-counselling-2026-choice%202-hold-and-upgrade-fees-and-rule"
+                },
+                {
+                  "label": "Eduprospect: 2026 seat surrender and penalties",
+                  "url": "https://eduprospect.com/news/karnataka-neet-ug-2026-counselling-kea-opens-seat-surrender-window-check-deadline-penalties-round-3-rules/"
+                },
+                {
+                  "label": "CollegeDekho: mock allotment and editing options (2022)",
+                  "url": "https://www.collegedekho.com/amp/news/kea-neet-mock-allotment-result-2022-releasing-today-dates-to-edit-mbbs-option-entry-important-instructions-32783/"
+                }
+              ],
+              "lastVerified": null
+            }
+          ]
         },
         {
           "type": "heading",
