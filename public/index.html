@@ -473,6 +473,27 @@
   }
   .load-error { margin-top: 12px; }
   .sub-h { font-size: 18px; margin: 18px 0 6px; color: var(--army-dark); }
+  /* Collapsible sections and the per-tab index */
+  .toc {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+    margin-bottom: 14px; padding: 10px 12px;
+    background: #fff; border: 1px solid var(--line); border-radius: 6px;
+  }
+  .toc-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted); margin-right: 4px; }
+  .toc a, .toc button {
+    font-size: 12px; padding: 4px 10px; border-radius: 14px;
+    border: 1px solid var(--line); background: var(--cream); color: var(--army-dark);
+    text-decoration: none; font-family: 'Inter', sans-serif; cursor: pointer;
+  }
+  .toc a:hover, .toc button:hover { border-color: var(--olive); }
+  .toc button { margin-left: auto; background: #fff; color: var(--muted); }
+  details.sec { scroll-margin-top: 56px; }
+  details.sec > summary { list-style: none; cursor: pointer; }
+  details.sec > summary::-webkit-details-marker { display: none; }
+  details.sec > summary .section-h { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-top: 22px; }
+  details.sec:first-of-type > summary .section-h { margin-top: 4px; }
+  details.sec > summary .section-h::after { content: '\2212'; color: var(--olive); font-family: 'Inter', sans-serif; font-size: 18px; }
+  details.sec:not([open]) > summary .section-h::after { content: '+'; }
   td a { color: var(--olive); }
   table.wide { min-width: 760px; }
   th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
@@ -713,6 +734,46 @@
     });
   }
 
+  // Each heading starts a collapsible section; the tab gets an index of its sections.
+  function renderSections(tab, panel) {
+    const toc = el('nav', 'toc');
+    toc.appendChild(el('span', 'toc-label', 'Jump to'));
+    const sections = [];
+    let target = panel;
+    tab.blocks.forEach(b => {
+      if (b.type !== 'heading') { target.appendChild(renderBlock(b)); return; }
+      const sec = el('details', 'sec');
+      sec.open = true;
+      sec.id = tab.id + '-' + b.html.replace(/<[^>]+>|&\w+;/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const summary = el('summary');
+      summary.appendChild(renderBlock(b));
+      sec.appendChild(summary);
+      panel.appendChild(sec);
+      sections.push(sec);
+      target = sec;
+
+      const link = el('a', '', b.html);
+      link.href = '#' + sec.id;
+      link.addEventListener('click', ev => {
+        ev.preventDefault();
+        sec.open = true;
+        sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      toc.appendChild(link);
+    });
+    if (sections.length < 2) return;
+    const toggle = el('button', '', 'Collapse all');
+    toggle.type = 'button';
+    toggle.addEventListener('click', () => {
+      const open = toggle.textContent === 'Expand all';
+      sections.forEach(s => { s.open = open; });
+      toggle.textContent = open ? 'Collapse all' : 'Expand all';
+    });
+    toc.appendChild(toggle);
+    const intro = panel.querySelector(':scope > .panel-intro');
+    panel.insertBefore(toc, intro ? intro.nextSibling : panel.firstChild);
+  }
+
   function render(data) {
     const site = data.site;
     document.title = site.title;
@@ -734,7 +795,7 @@
       const panel = el('section', 'tab-panel' + (i === 0 ? ' active' : ''));
       panel.id = tab.id;
       if (tab.type === 'timeline') renderTimeline(tab, panel);
-      else tab.blocks.forEach(b => panel.appendChild(renderBlock(b)));
+      else renderSections(tab, panel);
       main.appendChild(panel);
     });
 
