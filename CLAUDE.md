@@ -15,6 +15,9 @@ explain every step in plain language and say exactly what they need to do.
 - `tools/` holds the one-off scripts used to build the Karnataka table from KEA's 2026 allotment lists
   (`pdftotext -layout` each PDF to r1/r2/r3.txt, then `kea_parse.py`, `colleges.py`, `build_karnataka.py`).
   `build_karnataka.py` looks for the old section heading, so adapt it before reusing it for a new year.
+- Karnataka BAMS table: `pdftotext -layout` the three KEA AYUSH lists in `sources/` to a25r2/a25r3/a26r1.txt in one folder,
+  then `python3 tools/ayush_parse.py <folder>` and `python3 tools/ayush_table.py <folder>/rows.json <out.json>` (run from the
+  repo root; names and locations live in `tools/ayush_colleges.py`). Paste the rows into the BAMS table in `content.json`.
 
 ## Workflow (agreed with the owner)
 
@@ -38,6 +41,7 @@ explain every step in plain language and say exactly what they need to do.
 - No emojis in published content.
 
 ## Open items (as of 21 October 2026)
-- Ayurveda information: the owner is collecting it.
+- Ayurveda: Karnataka BAMS table added (KEA 2026 R1, 2025 R2 and R3). Still missing: KEA 2026 Round 2 list, and AACCC
+  (All India) allotment and fee data for colleges outside Karnataka.
 - Most Healing Paths and Non-Healing Path entries still have no sources or verification date.
 - Fact-check files per tab can be regenerated from `content.json` for checking in Perplexity.
