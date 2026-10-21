@@ -17,6 +17,8 @@ explain every step in plain language and say exactly what they need to do.
 - `tools/` holds the one-off scripts used to build the Karnataka table from KEA's 2026 allotment lists
   (`pdftotext -layout` each PDF to r1/r2/r3.txt, then `kea_parse.py`, `colleges.py`, `build_karnataka.py`).
   `build_karnataka.py` looks for the old section heading, so adapt it before reusing it for a new year.
+- Ayurveda tab: `aaccc_parse.py` (AACCC final result PDFs, needs pdfplumber), `kea_ayush_parse.py` (KEA AYUSH list text),
+  `ayush_colleges.py` (clean names) and `build_ayurveda.py`, which rebuilds the `ayurveda` tab. Add Round 3 when AACCC publishes it.
 
 ## Workflow (agreed with the owner)
 
