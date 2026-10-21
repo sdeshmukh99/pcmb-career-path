@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "1.9",
+    "version": "2.0",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -1961,19 +1961,42 @@
                   "items": [
                     "<strong>Before NEET results:</strong> list only the KEA government-seat (GMG) colleges you would accept, in order of your own priorities (safety, hygiene, location, fees). Do not order them by cutoff.",
                     "<strong>After NEET results:</strong> compare your All India Rank with the 2026 cutoffs in the table above. Round 1 shows early chances; Rounds 2 and 3 show later chances. Keep ambitious colleges above realistic backups.",
-                    "<strong>Register and verify documents</strong> on KEA's dates, even if registration opens before NEET results. Then enter, save and submit your college list.",
+                    "<strong>Register and verify documents</strong> on KEA's dates, even if registration opens before NEET results. Medical and dental options can be added only after you download the document verification slip. Then enter, save and submit your college list.",
                     "<strong>Mock allotment:</strong> a practice result only. Correct your list before the editing deadline.",
-                    "<strong>After Round 1, pick one choice:</strong> Choice 1 = accept the seat and stop; Choice 2 = keep the seat and try for a college higher on your list; Choice 3 = give up the seat and try again; Choice 4 = leave counselling. Pay fees and finish formalities by the deadline. Sources differ on whether Choice 2 needs the full fee upfront; check KEA's notice.",
-                    "<strong>How Choice 2 works:</strong> if your list is A → B → C → D and you get C, you can be upgraded to A or B. If you are upgraded to B, C is released automatically; if not, you keep C. Confirm in KEA's notice whether lower options (D) are excluded.",
-                    "<strong>After Round 2:</strong> pay and report within the deadlines. Do not give up an acceptable seat hoping for Round 3: in 2026, surrendering a seat after Round 2 carried penalties (₹5,000 and up, and reportedly up to ₹1 lakh later). Round 3 rules change each year."
+                    "<strong>After Round 1, pick one of four choices</strong> (KEA: \"There will be four choices for UGNEET courses as it is a first round\"): Choice 1 = accept the seat and stop; Choice 2 = keep the seat and try for a college higher on your list; Choice 3 = give up the seat and try again; Choice 4 = leave counselling. Pay fees and finish formalities by the deadline. Sources differ on whether Choice 2 needs the full fee upfront; check KEA's notice.",
+                    "<strong>How Choice 2 works:</strong> if your list is A → B → C → D and you get C, you can be upgraded only to A or B, never down to D (KEA upgrades to \"higher-order options\"). If you are upgraded to B, C is released automatically; if not, you keep C.",
+                    "<strong>Giving up a seat:</strong> done in person at KEA, Bengaluru, before the stated deadline, and a penalty applies. After Round 2, do not give up an acceptable seat hoping for Round 3: in 2026 penalties started at ₹5,000 and were reported to reach ₹1 lakh later. Round 3 rules change each year.",
+                    "<strong>Holding seats in both MCC (All India) and KEA counselling:</strong> if you want the MCC seat, leave KEA by choosing Choice 4 within KEA's window. In 2026 KEA then re-ran Round 2 with the freed seats, using the options already entered; no changes to options were allowed."
+                  ]
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>2026 dates, for reference:</strong>"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Round 1 option entry: 7 to 13 August 2026",
+                    "Round 1 provisional results: 19 August 2026; final allotment list: 28 August 2026",
+                    "Round 2 provisional results: 11 September 2026; Choice 4 window for MCC seat holders: 11 to 14 September 2026",
+                    "Round 2 final allotment list: 16 September 2026",
+                    "Round 3 final allotment list: 6 October 2026"
                   ]
                 },
                 {
                   "type": "note",
-                  "html": "KEA's official notice for your year (kea.kar.nic.in) always overrides this guide. These steps were cross-checked against news and counselling sites, not KEA's own rulebook."
+                  "html": "KEA's official notice for your year (kea.kar.nic.in) always overrides this guide. Steps 3, 5, 6, 7 (giving up in person) and 8, and the dates, come from KEA's 2026 notices and allotment lists; the Choice 2 fee rule and the penalty amounts come from news and counselling sites."
                 }
               ],
               "sources": [
+                {
+                  "label": "KEA notice ED/KEA/ADMN/CR-04/2026: Round 1 schedule (7 Aug 2026)",
+                  "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/kea-ugneet-2026-round-1-schedule-notice-2026-08-07.pdf"
+                },
+                {
+                  "label": "KEA notice ED/KEA/ADMN/CR-11/2026: Round 2 results and Choice 4 (10 Sep 2026)",
+                  "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/kea-ugneet-2026-round-2-results-choice-4-notice-2026-09-10.pdf"
+                },
                 {
                   "label": "KEA official website",
                   "url": "https://kea.kar.nic.in/"
