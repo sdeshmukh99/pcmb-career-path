@@ -13,7 +13,7 @@ Every change merged into `main` is published automatically by Cloudflare Workers
 `sources/` holds the official documents the content is built from. It is not published on the site.
 
 - `sources/mbbs/`: KEA MBBS allotment lists and notices.
-- `sources/ayurveda/aaccc/`: AACCC (national) seat matrices, allotment results and notices.
+- `sources/ayurveda/aaccc/`: AACCC (national) information bulletins, seat matrices, final allotment results and notices.
 - `sources/ayurveda/kea/`: KEA AYUSH allotment lists.
 - `sources/ayurveda/notes/`: secondary analyses (not official sources).
 
