@@ -472,6 +472,41 @@
     font-weight: 500;
   }
   .load-error { margin-top: 12px; }
+  .sub-h { font-size: 18px; margin: 18px 0 6px; color: var(--army-dark); }
+  /* Collapsible sections and the per-tab index */
+  .toc {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 6px;
+    margin-bottom: 14px; padding: 10px 12px;
+    background: #fff; border: 1px solid var(--line); border-radius: 6px;
+  }
+  .toc-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted); margin-right: 4px; }
+  .toc a, .toc button {
+    font-size: 12px; padding: 4px 10px; border-radius: 14px;
+    border: 1px solid var(--line); background: var(--cream); color: var(--army-dark);
+    text-decoration: none; font-family: 'Inter', sans-serif; cursor: pointer;
+  }
+  .toc a:hover, .toc button:hover { border-color: var(--olive); }
+  .toc button { margin-left: auto; background: #fff; color: var(--muted); }
+  details.sec { scroll-margin-top: 56px; }
+  details.sec > summary { list-style: none; cursor: pointer; }
+  details.sec > summary::-webkit-details-marker { display: none; }
+  details.sec > summary .section-h { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-top: 22px; }
+  details.sec:first-of-type > summary .section-h { margin-top: 4px; }
+  details.sec > summary .section-h::after { content: '\2212'; color: var(--olive); font-family: 'Inter', sans-serif; font-size: 18px; }
+  details.sec:not([open]) > summary .section-h::after { content: '+'; }
+  td a { color: var(--olive); }
+  table.wide { min-width: 760px; }
+  th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  th.sortable::after { content: ' \2195'; opacity: 0.5; }
+  th.sortable[aria-sort="ascending"]::after { content: ' \25B2'; opacity: 1; }
+  th.sortable[aria-sort="descending"]::after { content: ' \25BC'; opacity: 1; }
+  tr.filters th { background: var(--cream); padding: 6px 8px; text-transform: none; letter-spacing: 0; }
+  tr.filters input, tr.filters select {
+    width: 100%; min-width: 70px; font: 12px 'Inter', sans-serif; padding: 4px 6px;
+    border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink);
+  }
+  .filter-status { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--muted); margin: 8px 0 -4px; }
+  .filter-status button { font: 12px 'Inter', sans-serif; padding: 3px 10px; border: 1px solid var(--line); border-radius: 14px; background: #fff; color: var(--muted); cursor: pointer; }
 </style>
 </head>
 <body>
@@ -573,21 +608,111 @@
   function renderTable(b) {
     const frag = document.createDocumentFragment();
     const wrap = el('div', 'table-wrap');
-    const table = el('table');
+    const table = el('table', b.wide ? 'wide' : '');
     const thead = el('thead');
     const hr = el('tr');
     b.columns.forEach(c => { const th = el('th'); th.textContent = c; hr.appendChild(th); });
     thead.appendChild(hr);
     const tbody = el('tbody');
-    b.rows.forEach(r => {
+    const trs = b.rows.map(r => {
       const tr = el('tr');
       r.forEach(c => tr.appendChild(el('td', '', c)));
       tbody.appendChild(tr);
+      return tr;
     });
     table.append(thead, tbody);
     wrap.appendChild(table);
+    if (b.sortable) makeSortable(hr, tbody, b.sortExclude === 'last' ? trs.slice(0, -1) : trs);
+    if (b.filterable) frag.appendChild(makeFilterable(thead, trs));
     frag.append(wrap, sourceLine(b));
     return frag;
+  }
+
+  // Excel-style filters: a dropdown for columns with few distinct values,
+  // a minimum for number columns, and a "contains" box for text.
+  function makeFilterable(thead, rows) {
+    const status = el('div', 'filter-status');
+    const count = el('span');
+    const clear = el('button', '', 'Clear filters');
+    clear.type = 'button';
+    status.append(count, clear);
+    const row = el('tr', 'filters');
+    const tests = [];
+    const ncols = rows[0].children.length;
+    for (let col = 0; col < ncols; col++) {
+      const th = el('th');
+      const values = rows.map(tr => tr.children[col].textContent.trim());
+      const distinct = [...new Set(values)];
+      let input;
+      if (distinct.length <= 12) {
+        input = el('select');
+        input.appendChild(new Option('All', ''));
+        distinct.sort((a, b) => (sortKey(a) ?? Infinity) > (sortKey(b) ?? Infinity) ? 1 : -1)
+          .forEach(v => input.appendChild(new Option(v, v)));
+        tests.push(v => !input.value || v === input.value);
+      } else if (values.every(v => v === '–' || typeof sortKey(v) === 'number')) {
+        input = el('input');
+        input.type = 'number';
+        input.placeholder = 'at least';
+        tests.push(v => !input.value || (sortKey(v) !== null && sortKey(v) >= Number(input.value)));
+      } else {
+        input = el('input');
+        input.type = 'search';
+        input.placeholder = 'contains';
+        tests.push(v => !input.value || v.toLowerCase().includes(input.value.trim().toLowerCase()));
+      }
+      input.setAttribute('aria-label', 'Filter ' + thead.rows[0].children[col].textContent);
+      input.addEventListener('input', apply);
+      th.appendChild(input);
+      row.appendChild(th);
+    }
+    thead.appendChild(row);
+    function apply() {
+      let shown = 0;
+      rows.forEach(tr => {
+        const ok = tests.every((t, col) => t(tr.children[col].textContent.trim()));
+        tr.style.display = ok ? '' : 'none';
+        if (ok) shown++;
+      });
+      count.textContent = `Showing ${shown} of ${rows.length}`;
+    }
+    clear.addEventListener('click', () => {
+      row.querySelectorAll('input, select').forEach(i => { i.value = ''; });
+      apply();
+    });
+    apply();
+    return status;
+  }
+
+  // Numbers sort numerically ("₹1,53,571" -> 153571); "–" and blanks always go last.
+  function sortKey(text) {
+    const t = text.trim();
+    if (t === '' || t === '–') return null;
+    const n = t.replace(/[₹,\s]/g, '');
+    return /^\d+(\.\d+)?$/.test(n) ? Number(n) : t.toLowerCase();
+  }
+
+  function makeSortable(headRow, tbody, rows) {
+    const fixed = Array.from(tbody.children).filter(tr => !rows.includes(tr));
+    Array.from(headRow.children).forEach((th, col) => {
+      th.classList.add('sortable');
+      th.tabIndex = 0;
+      const sort = () => {
+        const dir = th.getAttribute('aria-sort') === 'ascending' ? -1 : 1;
+        headRow.querySelectorAll('th').forEach(h => h.removeAttribute('aria-sort'));
+        th.setAttribute('aria-sort', dir === 1 ? 'ascending' : 'descending');
+        const keyed = rows.map(tr => [sortKey(tr.children[col].textContent), tr]);
+        keyed.sort((a, b) => {
+          if (a[0] === null || b[0] === null) return (a[0] === null) - (b[0] === null);
+          if (typeof a[0] !== typeof b[0]) return typeof a[0] === 'number' ? -1 : 1;
+          return (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0) * dir;
+        });
+        keyed.forEach(([, tr]) => tbody.appendChild(tr));
+        fixed.forEach(tr => tbody.appendChild(tr));
+      };
+      th.addEventListener('click', sort);
+      th.addEventListener('keydown', ev => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); sort(); } });
+    });
   }
 
   function renderBlock(b) {
@@ -596,6 +721,8 @@
       case 'heading': return el('h2', 'section-h', b.html);
       case 'path': return el('div', 'path-line', b.html);
       case 'lead': return el('p', 'section-lead', b.html);
+      case 'subheading': return el('h3', 'sub-h', b.html);
+      case 'callout': return el('div', 'callout', b.html);
       case 'note': return el('p', 'note' + (b.spaced ? ' spaced' : ''), b.html);
       case 'table': return renderTable(b);
       case 'accordion': {
@@ -671,6 +798,46 @@
     });
   }
 
+  // Each heading starts a collapsible section; the tab gets an index of its sections.
+  function renderSections(tab, panel) {
+    const toc = el('nav', 'toc');
+    toc.appendChild(el('span', 'toc-label', 'Jump to'));
+    const sections = [];
+    let target = panel;
+    tab.blocks.forEach(b => {
+      if (b.type !== 'heading') { target.appendChild(renderBlock(b)); return; }
+      const sec = el('details', 'sec');
+      sec.open = true;
+      sec.id = tab.id + '-' + b.html.replace(/<[^>]+>|&\w+;/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      const summary = el('summary');
+      summary.appendChild(renderBlock(b));
+      sec.appendChild(summary);
+      panel.appendChild(sec);
+      sections.push(sec);
+      target = sec;
+
+      const link = el('a', '', b.html);
+      link.href = '#' + sec.id;
+      link.addEventListener('click', ev => {
+        ev.preventDefault();
+        sec.open = true;
+        sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      toc.appendChild(link);
+    });
+    if (sections.length < 2) return;
+    const toggle = el('button', '', 'Collapse all');
+    toggle.type = 'button';
+    toggle.addEventListener('click', () => {
+      const open = toggle.textContent === 'Expand all';
+      sections.forEach(s => { s.open = open; });
+      toggle.textContent = open ? 'Collapse all' : 'Expand all';
+    });
+    toc.appendChild(toggle);
+    const intro = panel.querySelector(':scope > .panel-intro');
+    panel.insertBefore(toc, intro ? intro.nextSibling : panel.firstChild);
+  }
+
   function render(data) {
     const site = data.site;
     document.title = site.title;
@@ -692,7 +859,7 @@
       const panel = el('section', 'tab-panel' + (i === 0 ? ' active' : ''));
       panel.id = tab.id;
       if (tab.type === 'timeline') renderTimeline(tab, panel);
-      else tab.blocks.forEach(b => panel.appendChild(renderBlock(b)));
+      else renderSections(tab, panel);
       main.appendChild(panel);
     });
 
