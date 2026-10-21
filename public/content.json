@@ -1,0 +1,1768 @@
+{
+  "site": {
+    "title": "Post-12th Career Plan",
+    "heading": "Post-12th Career Plan",
+    "subtitle": "PCMB · CBSE 2027 · Living document",
+    "footer": "Living document",
+    "version": "1.5",
+    "lastUpdated": "2026-10-21"
+  },
+  "tabs": [
+    {
+      "id": "healing",
+      "label": "Healing Paths",
+      "blocks": [
+        {
+          "type": "intro",
+          "html": "All courses below let you practice as a doctor or healthcare professional. Excludes nursing and basic technician routes. Most entries are via <strong>NEET UG 2027</strong>. AYUSH and Physiotherapy need lower NEET ranks than MBBS. All cutoff numbers in this document are <strong>Open Category</strong>."
+        },
+        {
+          "type": "heading",
+          "html": "Modern Medicine"
+        },
+        {
+          "type": "path",
+          "html": "<strong>Typical path:</strong> MBBS <span class=\"yrs\">(5.5 yrs incl. 1 yr internship)</span> <span class=\"arrow\">→</span> MD / MS <span class=\"yrs\">(3 yrs)</span> <span class=\"arrow\">→</span> DM / MCh super-specialty <span class=\"yrs\">(3 yrs)</span> <br/> <span class=\"yrs\">Total from 12th to super-specialist: ~11-12 years. Entrance: NEET UG → NEET PG → INI-CET / NEET SS.</span>"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "mbbs-bachelor-of-medicine-surgery",
+              "title": "MBBS — Bachelor of Medicine & Surgery",
+              "tag": {
+                "text": "Top Tier",
+                "style": "default"
+              },
+              "meta": [
+                {
+                  "label": "Duration",
+                  "value": "5.5 yrs (4.5 + 1 yr internship)"
+                },
+                {
+                  "label": "Entrance",
+                  "value": "NEET UG"
+                },
+                {
+                  "label": "Min 12th %",
+                  "value": "50% PCB (Open)"
+                },
+                {
+                  "label": "Min Age",
+                  "value": "17 by 31 Dec 2027"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "The only path to be called \"Doctor\" in the allopathic sense in India. Hardest cutoffs of any UG medical course."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Realistic Open-category NEET score for govt seat:</strong> 620+ for any govt college, 650+ for top govt colleges. Below 600 essentially shuts out govt MBBS for Open category in most states."
+                },
+                {
+                  "type": "p",
+                  "html": "After MBBS, specialisations split into broad branches. Sections below cover the most-asked-about ones."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "md-pathology-the-doctor-who-signs-lab-reports",
+              "title": "MD Pathology — the doctor who signs lab reports",
+              "tag": {
+                "text": "Post-MBBS",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> MBBS <span class=\"arrow\">→</span> MD Pathology <span class=\"yrs\">(3 yrs via NEET PG)</span>. Total ~8.5 yrs from 12th."
+                },
+                {
+                  "type": "p",
+                  "html": "The chief who signs every blood report, biopsy, and histopathology report is an MD Pathologist — fully a medical doctor. Lab assistants and BMLT technicians work under this person but cannot sign reports."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Career model:</strong> Run an independent diagnostic lab, partner with hospitals, or work in chains like SRL, Dr Lal Pathlabs, Metropolis, Thyrocare. Strong income, low patient interaction, no emergency shifts — often preferred by women MBBS graduates seeking work-life balance."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "md-radiology-scans-x-rays-mri-ct-usg",
+              "title": "MD Radiology — scans, X-rays, MRI, CT, USG",
+              "tag": {
+                "text": "Post-MBBS",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> MBBS <span class=\"arrow\">→</span> MD Radiodiagnosis <span class=\"yrs\">(3 yrs)</span>. Highest-paid MBBS branch in India today."
+                },
+                {
+                  "type": "p",
+                  "html": "Reads scans, signs imaging reports. Sub-specialties via DM: Interventional Radiology, Neuroradiology. Tele-radiology lets you read scans for US/UK hospitals from home — high foreign-income option."
+                },
+                {
+                  "type": "note",
+                  "html": "Radiographer / X-ray technician is a different (non-doctor) route via B.Sc Radiology — covered separately at the end of this tab."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "dm-cardiology-heart-specialist-reads-ecg-echo",
+              "title": "DM Cardiology — heart specialist, reads ECG/Echo",
+              "tag": {
+                "text": "Super-specialty",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> MBBS <span class=\"arrow\">→</span> MD General Medicine <span class=\"yrs\">(3 yrs)</span> <span class=\"arrow\">→</span> DM Cardiology <span class=\"yrs\">(3 yrs)</span>. Total ~11.5 yrs."
+                },
+                {
+                  "type": "p",
+                  "html": "The doctor who interprets ECG, Echo, Stress Test and performs Angiography / Angioplasty. Among the highest-earning specialities in India. Heavy work-life cost — emergencies are constant."
+                },
+                {
+                  "type": "note",
+                  "html": "Cardiac care technician / Cath lab tech is a non-doctor route via B.Sc Cardiac Care Technology — listed at end of tab."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "md-dermatology-skin-hair-cosmetic",
+              "title": "MD Dermatology — skin, hair, cosmetic",
+              "tag": {
+                "text": "Post-MBBS",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> MBBS <span class=\"arrow\">→</span> MD Dermatology, Venereology & Leprosy <span class=\"yrs\">(3 yrs)</span>. Total ~8.5 yrs."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Most competitive NEET PG branch.</strong> Cutoff is brutal — only top ~500 NEET PG ranks get a dermatology seat. Why so competitive: predictable hours, no emergencies, lucrative cosmetic practice (Botox, fillers, laser, hair transplant, anti-ageing). One of the most preferred branches by women MBBS doctors."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "mch-plastic-surgery-reconstructive-cosmetic",
+              "title": "MCh Plastic Surgery — reconstructive + cosmetic",
+              "tag": {
+                "text": "Super-specialty",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> MBBS <span class=\"arrow\">→</span> MS General Surgery <span class=\"yrs\">(3 yrs)</span> <span class=\"arrow\">→</span> MCh Plastic & Reconstructive Surgery <span class=\"yrs\">(3 yrs)</span>. Total ~11.5 yrs."
+                },
+                {
+                  "type": "p",
+                  "html": "Covers reconstructive (burns, trauma, cleft lip/palate, cancer reconstruction) and cosmetic (rhinoplasty, liposuction, breast surgery, facelift). Two distinct career tracks possible — pure cosmetic private practice is very lucrative; reconstructive is largely hospital-based."
+                },
+                {
+                  "type": "note",
+                  "html": "Sometimes confused with \"cosmetic surgeon\" — there is no Indian degree called \"Cosmetic Surgeon.\" Cosmetic procedures are legally done by MCh Plastic Surgeons and (for non-invasive) by MD Dermatologists."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "md-forensic-medicine",
+              "title": "MD Forensic Medicine",
+              "tag": {
+                "text": "Post-MBBS",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> MBBS <span class=\"arrow\">→</span> MD Forensic Medicine & Toxicology <span class=\"yrs\">(3 yrs)</span>. Total ~8.5 yrs."
+                },
+                {
+                  "type": "p",
+                  "html": "Doctor who performs post-mortems, signs death certificates in medico-legal cases, gives court testimony. Career mostly in govt medical colleges as faculty or in govt forensic departments."
+                },
+                {
+                  "type": "note",
+                  "html": "M.Sc Forensic Science is a separate non-doctor route covered under the Non-Healing Path tab."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "bds-bachelor-of-dental-surgery",
+              "title": "BDS — Bachelor of Dental Surgery",
+              "tag": {
+                "text": "Backup to MBBS",
+                "style": "alt"
+              },
+              "meta": [
+                {
+                  "label": "Duration",
+                  "value": "5 yrs (4 + 1 yr internship)"
+                },
+                {
+                  "label": "Entrance",
+                  "value": "NEET UG"
+                },
+                {
+                  "label": "Min 12th %",
+                  "value": "50% PCB (Open)"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> BDS <span class=\"arrow\">→</span> MDS <span class=\"yrs\">(3 yrs)</span> in specialities like Orthodontics, Oral Surgery, Endodontics, Prosthodontics."
+                },
+                {
+                  "type": "p",
+                  "html": "The only undergraduate dental degree in India. Practice as a dentist; can open private clinic. Saturated in metros; less so in tier-2/3 cities. Govt BDS seats typically need NEET 500-580 (Open category)."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Ayurveda & AYUSH"
+        },
+        {
+          "type": "path",
+          "html": "<strong>Typical path:</strong> BAMS <span class=\"yrs\">(5.5 yrs incl. 1 yr internship)</span> <span class=\"arrow\">→</span> MD / MS Ayurveda <span class=\"yrs\">(3 yrs)</span> <span class=\"arrow\">→</span> Optional certifications / international practice <br/> <span class=\"yrs\">Total to PG specialist: ~8.5 yrs. PG entrance: AIAPGET (All India Ayush PG Entrance Test).</span>"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "bams-ayurvedic-medicine-surgery",
+              "title": "BAMS — Ayurvedic Medicine & Surgery",
+              "tag": {
+                "text": "AYUSH",
+                "style": "alt"
+              },
+              "meta": [
+                {
+                  "label": "Duration",
+                  "value": "5.5 yrs (4.5 + 1 yr internship)"
+                },
+                {
+                  "label": "Entrance",
+                  "value": "NEET UG → AACCC counselling"
+                },
+                {
+                  "label": "Min 12th %",
+                  "value": "50% PCB (Open)"
+                },
+                {
+                  "label": "Karnataka Open Cutoff",
+                  "value": "~350-500 NEET for govt; lower for private"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Practice as registered Ayurvedic Doctor (uses \"Dr.\" prefix). Recognised by NCISM (National Commission for Indian System of Medicine), Ministry of AYUSH, Govt of India."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Notable Bangalore options:</strong>"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>Sri Sri College of Ayurvedic Science &amp; Research Hospital</strong>, Kanakapura Road, Bangalore. Affiliated to RGUHS. Part of Art of Living campus. Admission via NEET UG → KEA Ayush counselling. Includes Panchakarma clinical exposure.",
+                    "<strong>Govt Ayurveda Medical College, Mysuru</strong> — top govt option in Karnataka.",
+                    "<strong>Taranath Govt Ayurvedic Medical College, Bellary</strong>.",
+                    "<strong>SDM College of Ayurveda, Hassan / Udupi</strong> — highly regarded private."
+                  ]
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "ms-shalya-tantra-ayurvedic-surgery-yes-real-surg",
+              "title": "MS Shalya Tantra — Ayurvedic Surgery (Yes, real surgery)",
+              "tag": {
+                "text": "PG Surgery",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> BAMS <span class=\"arrow\">→</span> MS Shalya Tantra <span class=\"yrs\">(3 yrs)</span>. Total ~8.5 yrs."
+                },
+                {
+                  "type": "p",
+                  "html": "Shalya Tantra is the surgical branch of Ayurveda — rooted in Sushruta Samhita. MS Shalya Tantra graduates are trained in classical Ayurvedic surgery and a defined list of modern surgical procedures."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Legal scope (as of 2025-26):</strong> A 2020 CCIM notification permits PG Ayurveda surgeons (Shalya & Shalakya) to independently perform <strong>58 listed surgical procedures</strong>, including general surgical procedures (excision of benign tumours, hernia repair, hydrocele, appendectomy), ENT (mastoidectomy, tonsillectomy), ophthalmic, and proctology procedures. Andhra Pradesh formally allowed these in 2025."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Sub-specialty practice:</strong> Ksharasutra (medicated thread) for piles, fistula, fissure — this is a flagship Ayurvedic procedure with strong patient demand. Many MS Shalya graduates run dedicated anorectal clinics."
+                },
+                {
+                  "type": "note",
+                  "html": "The Indian Medical Association (IMA) opposes this as \"mixopathy\". Practical reality: the regulation exists, surgeons are practising under it, but expect ongoing public debate."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "md-ayurveda-non-surgical-pg-branches",
+              "title": "MD Ayurveda — non-surgical PG branches",
+              "tag": {
+                "text": "PG",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Main MD specialisations after BAMS:"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>Kayachikitsa</strong> — internal medicine (the broadest branch, like MD General Medicine)",
+                    "<strong>Panchakarma</strong> — purification therapies, the most marketable internationally",
+                    "<strong>Prasuti Tantra &amp; Stri Roga</strong> — obstetrics & gynaecology",
+                    "<strong>Kaumarabhritya</strong> — paediatrics",
+                    "<strong>Dravyaguna</strong> — pharmacology of medicinal plants (useful for product line, R&D)",
+                    "<strong>Rasashastra &amp; Bhaishajya Kalpana</strong> — Ayurvedic pharmaceutics (useful for own product line)",
+                    "<strong>Swasthavritta</strong> — preventive medicine & yoga",
+                    "<strong>Rachana Sharir / Kriya Sharir</strong> — anatomy / physiology (mainly for teaching careers)"
+                  ]
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "allopathy-prescription-rights-the-honest-positio",
+              "title": "Allopathy prescription rights — the honest position",
+              "tag": {
+                "text": "State-dependent",
+                "style": "warn"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Short answer: <strong>conditionally yes, in some states</strong>. Long answer:"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>Maharashtra</strong> allows BAMS doctors to prescribe modern medicine after a CCIM-prescribed pharmacology component during BAMS itself. Maharashtra Medical Council registers them with prescription rights.",
+                    "Other states like <strong>Punjab, Madhya Pradesh, Tamil Nadu, Uttarakhand</strong> have varying rules — usually allowing emergency use and a list of OTC/scheduled drugs.",
+                    "A <strong>national-level \"bridge course\"</strong> for AYUSH-to-allopathy was proposed but has been opposed by IMA and has not been implemented uniformly.",
+                    "Many BAMS graduates in practice <strong>do prescribe modern medicine</strong> — this is widespread but legally grey outside the states above."
+                  ]
+                },
+                {
+                  "type": "p",
+                  "html": "Plan A for serious practice: take BAMS in or settle for practice in <strong>Maharashtra</strong> for cleanest legal allopathy-prescription rights. Or, get the MS Shalya Tantra route for legal surgery rights."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "settling-abroad-as-bams-practical-paths",
+              "title": "Settling Abroad as BAMS — practical paths",
+              "tag": {
+                "text": "International",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "BAMS is <strong>not</strong> auto-recognised as a medical degree anywhere outside India. But Ayurveda itself is legally recognised or accommodated in several countries. Practical settlement routes:"
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>USA</strong> — Ayurveda is not a licensed medical profession at federal level, but practitioners can register with <strong>NAMA (National Ayurvedic Medical Association)</strong> as Registered Ayurvedic Practitioner / Doctor. Two well-known training/credentialing institutes:"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>The Ayurvedic Institute</strong> founded by <strong>Dr Vasant Lad</strong> (originally Albuquerque NM, moved to <strong>Asheville, North Carolina in 2022</strong>). Offers Ayurvedic Studies Programs and Gurukula. Strong reputation. NAMA-recognised.",
+                    "<strong>California College of Ayurveda</strong> (Nevada City, CA) — Dr Marc Halpern."
+                  ]
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Path:</strong> BAMS in India <span class=\"arrow\">→</span> additional NAMA-approved coursework in US <span class=\"arrow\">→</span> NAMA registration <span class=\"arrow\">→</span> private wellness/Ayurvedic practice. Cannot prescribe pharmaceuticals; can offer consultations, herbs, Panchakarma, lifestyle therapy."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Switzerland</strong> — Ayurveda is recognised as Complementary Medicine; treatments are insurance-reimbursable in several cantons through registered Naturopath / Ayurveda Practitioner status."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Germany</strong> — practise as <strong>Heilpraktiker</strong> (state-licensed alternative health practitioner) after a German exam. Many BAMS graduates go this route."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Australia &amp; New Zealand</strong> — Ayurveda is unregulated; practitioners register with professional bodies (AAA in Australia, NZAAA in NZ). Growing market."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>UAE (Dubai, Sharjah, Abu Dhabi)</strong> — DHA/MOH/HAAD licenses recognise BAMS for Ayurveda-only practice in licensed Ayurveda clinics and wellness centres. Significant Indian diaspora demand. Pay is good."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Gulf countries (Oman, Qatar, Bahrain, Saudi Arabia)</strong> — limited but present."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Other recognised jurisdictions:</strong> Sri Lanka, Nepal, Mauritius, Hungary, parts of Brazil, Cuba — Ayurveda recognised at varying levels."
+                },
+                {
+                  "type": "callout",
+                  "html": "<strong>Most practical 5-year plan for settlement abroad:</strong> BAMS in India (2027-2032) <span class=\"arrow\">→</span> 1 year fellowship/internship at Vasant Lad's institute or California College of Ayurveda <span class=\"arrow\">→</span> NAMA registration <span class=\"arrow\">→</span> H1B / O-1 / wellness-centre employment-based route to US, OR Heilpraktiker route to Germany, OR DHA route to UAE. Australia & Switzerland are slower but more lifestyle-friendly destinations."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "bhms-bums-bsms-bnys-other-ayush-degrees",
+              "title": "BHMS, BUMS, BSMS, BNYS — other AYUSH degrees",
+              "tag": {
+                "text": "AYUSH",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "All 5.5 years, NEET UG entry. Use \"Dr.\" prefix. Lower NEET cutoffs than BAMS."
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>BHMS</strong> (Homoeopathy) — lowest demand among AYUSH currently.",
+                    "<strong>BUMS</strong> (Unani) — Greco-Arabic system. UP, Karnataka, Maharashtra concentration.",
+                    "<strong>BSMS</strong> (Siddha) — Tamil Nadu-centric. Niche outside TN.",
+                    "<strong>BNYS</strong> (Naturopathy & Yogic Sciences) — drugless therapies, yoga, hydrotherapy. Karnataka has very strong colleges including SDM Ujire and Govt Yoga & Naturopathy College Mysore. Fits the wellness/clinic/product-line vision well — sometimes paired with BAMS-style practice."
+                  ]
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Add-on Therapies & Specialisations"
+        },
+        {
+          "type": "intro",
+          "html": "Short certifications and skill-stacks you can layer on top of BAMS/BNYS to build a differentiated clinic, train staff, and develop your own product line. Most are 3-12 month diplomas; many can be added during or after the main degree."
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "marma-therapy",
+              "title": "Marma Therapy",
+              "tag": {
+                "text": "Indian",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Vital-points therapy from Ayurveda & Kalaripayattu. Used for pain, paralysis, neuro-musculoskeletal issues. Certifications offered by AVT Kerala, Vaidyagrama, several gurukulas in Kerala. Standalone Marma clinics are commercially viable."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "panchakarma-specialisation",
+              "title": "Panchakarma Specialisation",
+              "tag": {
+                "text": "Indian",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "5-treatment detox/cleansing protocol. The most commercially successful Ayurveda export — drives wellness retreats from Kerala to Switzerland. PG Diploma in Panchakarma after BAMS, or MD Panchakarma. Essential if you want to run a clinic or retreat centre."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "yoga-therapy",
+              "title": "Yoga Therapy",
+              "tag": {
+                "text": "Indian",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Yoga as therapeutic intervention for specific conditions. Strong programs at <strong>SVYASA Bangalore</strong> (Swami Vivekananda Yoga Anusandhana Samsthana — deemed university), <strong>Kaivalyadhama Lonavla</strong>, <strong>Bihar School of Yoga</strong>, <strong>Krishnamacharya Yoga Mandiram Chennai</strong>. Internationally portable credential."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "osteopathy",
+              "title": "Osteopathy",
+              "tag": {
+                "text": "Western manual therapy",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Western manual-medicine system focused on musculoskeletal manipulation. <strong>Sri Sri University (Cuttack/Bhubaneswar campus)</strong> offers an <strong>M.Sc Osteopathy</strong> at PG level — verify current intake directly with the university as program details change."
+                },
+                {
+                  "type": "p",
+                  "html": "Also see: <strong>Indian Academy of Osteopathy (IAO) Bangalore</strong>, <strong>NIBNS Bangalore</strong>. Osteopathy is a fully licensed medical profession in USA (DO degree, equivalent to MD) and recognised in UK, Australia, NZ, France — strong international portability if you pursue full degrees from those countries."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "acupuncture-acupressure",
+              "title": "Acupuncture & Acupressure",
+              "tag": {
+                "text": "Chinese",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Recognised as a Healthcare Profession by Govt of India since 2019 (Ministry of AYUSH). Diploma and degree courses available. WHO-recognised globally. Easy add-on to any practice."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "reiki-pranic-healing-rakkenho",
+              "title": "Reiki, Pranic Healing, Rakkenho",
+              "tag": {
+                "text": "Energy work",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Short certifications (weekend to few weeks). Not regulated as medical practice anywhere. Useful as service add-ons in a wellness clinic / retreat. <strong>Rakkenho</strong> (Japanese energy healing / Reiki-family) — niche but has a small following in India and East Asia. Pranic Healing has organised infrastructure via World Pranic Healing Foundation."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "cupping-hijama-aromatherapy-reflexology",
+              "title": "Cupping (Hijama), Aromatherapy, Reflexology",
+              "tag": {
+                "text": "Add-ons",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Short certifications (few days to few weeks). Commercially popular add-ons in wellness clinics. Hijama has Middle East market relevance — useful if Gulf/UAE practice is on the cards."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "clinical-nutrition-dietetics",
+              "title": "Clinical Nutrition & Dietetics",
+              "tag": {
+                "text": "Modern",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "PG Diploma or M.Sc in Clinical Nutrition. Pairs extremely well with Ayurveda — Ayurveda's core strength is diet/lifestyle. Lets you offer a \"modern + Ayurveda\" diet plan as a paid service. SNDT Mumbai, IGNOU, Christ University Bangalore."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Allied Healthcare (doctor-adjacent, separate routes)"
+        },
+        {
+          "type": "path",
+          "html": "<strong>Typical path:</strong> 4-4.5 yr UG <span class=\"arrow\">→</span> 2 yr Masters <span class=\"arrow\">→</span> practice / international bridging exam"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "bvsc-ah-veterinary-science",
+              "title": "BVSc & AH — Veterinary Science",
+              "tag": {
+                "text": "Animal Doctor",
+                "style": "neutral"
+              },
+              "meta": [
+                {
+                  "label": "Duration",
+                  "value": "5.5 yrs (4.5 + 1 yr internship)"
+                },
+                {
+                  "label": "Entrance",
+                  "value": "NEET UG (15% AIQ via VCI) + state exams"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Veterinary doctor. VCI-registered. Govt seats available, reasonable Open-category cutoffs. Pet-care + dairy/poultry/livestock public sector growing."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "bpt-physiotherapy",
+              "title": "BPT — Physiotherapy",
+              "tag": {
+                "text": "Therapist",
+                "style": "neutral"
+              },
+              "meta": [
+                {
+                  "label": "Duration",
+                  "value": "4.5 yrs (3.5 + 6 mo internship)"
+                },
+                {
+                  "label": "Entrance",
+                  "value": "NEET UG / state CET / institute-specific"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Cannot officially use \"Dr.\" prefix in most states. Strong global demand — Australia, UK, Canada, Gulf recruit Indian physios after bridge exams. Sports medicine and rehab are growth areas."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "pharm-d-doctor-of-pharmacy",
+              "title": "Pharm.D — Doctor of Pharmacy",
+              "tag": {
+                "text": "Pharma",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "6 yrs. Doctorate-level pharmacy. Clinical pharmacist role with \"Dr.\" prefix. Strong international scope — US (after FPGEE), Gulf, UK. Considerable American hospital demand for clinical pharmacists."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "bot-occupational-therapy",
+              "title": "BOT — Occupational Therapy",
+              "tag": {
+                "text": "Therapist",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "4.5 yrs. Rehab focus — daily-living function recovery. Strong demand in special-needs schools, hospitals, and abroad (US, UK)."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "b-optom-optometry",
+              "title": "B.Optom — Optometry",
+              "tag": {
+                "text": "Eye Care",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "4 yrs. Eye exam, vision correction. Not ophthalmologist. LV Prasad Hyderabad, Sankara Nethralaya Chennai are top training centres."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "baslp-audiology-speech-language-pathology",
+              "title": "BASLP — Audiology & Speech-Language Pathology",
+              "tag": {
+                "text": "Therapist",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "4 yrs. AIISH Mysuru is the top centre — relevant for Karnataka students. Excellent international placement."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Technician Tracks (not doctor, listed for completeness)"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "b-sc-medical-lab-tech-radiography-cardiac-tech",
+              "title": "B.Sc Medical Lab Tech / Radiography / Cardiac Tech",
+              "tag": {
+                "text": "Not doctor",
+                "style": "warn"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "3-4 year B.Sc programs. <strong>BMLT</strong> (lab tech — runs samples, MD Pathologist signs), <strong>B.Sc Radiology / Radio-Imaging Tech</strong> (operates X-ray/CT/MRI machines, MD Radiologist signs), <strong>B.Sc Cardiac Care Tech</strong> (assists in cath lab, runs ECG/Echo, DM Cardiologist interprets), <strong>B.Sc Anaesthesia / Operation Theatre Tech</strong>."
+                },
+                {
+                  "type": "p",
+                  "html": "Mentioned for completeness — these are technician careers, not doctor careers. Pay caps lower; harder to set up independent practice. Included because people often confuse these roles with the doctor roles above."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colleges",
+      "label": "Medical Colleges",
+      "blocks": [
+        {
+          "type": "intro",
+          "html": "Open-category, affordable seats only. Private colleges with ₹15-25 L/year fees are out of scope. <strong>Total govt MBBS seats in India ~63,680 across 456 colleges</strong> (NMC 2025-26 matrix). All cutoff data below is for <strong>Open Category</strong> only."
+        },
+        {
+          "type": "heading",
+          "html": "Central Government Colleges"
+        },
+        {
+          "type": "lead",
+          "html": "Entirely outside state-quota politics. 100% seats via MCC counselling on All India Quota basis. Lowest fees in India."
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "aiims-20-institutes-nationwide",
+              "title": "AIIMS — 20 institutes nationwide",
+              "tag": {
+                "text": "Top",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "AIIMS Delhi (original), plus AIIMS at Bhopal, Bhubaneswar, Jodhpur, Patna, Raipur, Rishikesh, Bhatinda, Bibinagar (Telangana), Bilaspur, Deoghar, Gorakhpur, Guwahati, Kalyani, Madurai, Mangalagiri, Nagpur, Rajkot, Raebareli, Vijaypur (J&K)."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Fees:</strong> ~₹1,600/year. Stipend during internship."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Open-category cutoff:</strong> AIIMS Delhi closes within AIR ~50. Newer AIIMS (Mangalagiri, Bibinagar, Vijaypur etc.) close around AIR 1500-3500 — these are far more achievable."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "jipmer-puducherry-karaikal",
+              "title": "JIPMER — Puducherry & Karaikal",
+              "tag": {
+                "text": "Top",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Jawaharlal Institute of Postgraduate Medical Education & Research. Two campuses. Among best teaching hospitals in India."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Fees:</strong> ~₹4,500/year. <strong>Open-category cutoff:</strong> Puducherry around AIR 150-200; Karaikal slightly higher."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "afmc-pune-armed-forces-medical-college",
+              "title": "AFMC Pune — Armed Forces Medical College",
+              "tag": {
+                "text": "Govt + Service",
+                "style": "default"
+              },
+              "meta": [
+                {
+                  "label": "Total Seats",
+                  "value": "150 (115 boys, 30 girls, 5 foreign)"
+                },
+                {
+                  "label": "Girls' Seats",
+                  "value": "Only 30 — highly competitive"
+                },
+                {
+                  "label": "Fees",
+                  "value": "~₹65,000 total (one-time)"
+                },
+                {
+                  "label": "Service Bond",
+                  "value": "7 yrs in Armed Forces"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Process:</strong> NEET UG → shortlist by AFMC → ToELR (Test of English Language & Logical Reasoning, 30 min) + PAT (Psychological Assessment) + Interview + Medical Exam at AFMC Pune."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Open-category cutoff (Girls):</strong> Historically requires AIR within top ~500-1000 to make the girls' shortlist."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Catch:</strong> Must remain unmarried during MBBS. On graduation commissioned as Short Service Commission officer in Armed Forces Medical Services."
+                },
+                {
+                  "type": "p",
+                  "html": "Apply separately on <span class=\"pill\">afmc.nic.in</span> after NEET results, around June-July 2027."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "esic-medical-colleges-20-colleges",
+              "title": "ESIC Medical Colleges (20 colleges)",
+              "tag": {
+                "text": "Central",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Employees' State Insurance Corporation medical colleges. Includes <strong>ESIC Bangalore (Rajajinagar)</strong> — relevant for Karnataka students. Fees moderate (~₹1.5-2 L/year). General quota seats via MCC AIQ."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Open-category cutoff:</strong> ESIC Bangalore closes around AIR 8,000-15,000 in recent cycles."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "other-central-institutes",
+              "title": "Other Central Institutes",
+              "tag": {
+                "text": "Central",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "list",
+                  "items": [
+                    "<strong>IMS BHU Varanasi</strong> — Institute of Medical Sciences, Banaras Hindu University",
+                    "<strong>JNMC AMU Aligarh</strong> — Jawaharlal Nehru Medical College, Aligarh Muslim University",
+                    "<strong>VMMC &amp; Safdarjung Delhi</strong>",
+                    "<strong>ABVIMS &amp; RML Delhi</strong>",
+                    "<strong>MAMC Delhi</strong> (Delhi Govt but AIQ heavy)",
+                    "<strong>Lady Hardinge Medical College, Delhi</strong> — all-women's college"
+                  ]
+                },
+                {
+                  "type": "note",
+                  "html": "All admit via MCC AIQ counselling using NEET UG score."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Karnataka Government Colleges (State Quota Advantage)"
+        },
+        {
+          "type": "lead",
+          "html": "Karnataka has 24 govt medical colleges, ~4,250 MBBS seats. <strong>85% reserved for Karnataka domicile</strong> via KEA counselling — the single biggest advantage for Karnataka-domicile students. Fees ~₹64,000/year. All cutoffs below are <strong>Open Category, State Quota, General Merit</strong>."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "College",
+            "City",
+            "Open Cutoff (NEET 2025)"
+          ],
+          "rows": [
+            [
+              "BMCRI",
+              "Bangalore",
+              "640+ / Rank ~3,500"
+            ],
+            [
+              "MMCRI",
+              "Mysuru",
+              "620+ / Rank ~7,000"
+            ],
+            [
+              "KIMS",
+              "Hubli",
+              "600+ / Rank ~12,000"
+            ],
+            [
+              "VIMS",
+              "Bellary",
+              "580+ / Rank ~18,000"
+            ],
+            [
+              "SIMS",
+              "Shivamogga",
+              "570+ / Rank ~22,000"
+            ],
+            [
+              "HIMS",
+              "Hassan",
+              "560+ / Rank ~25,000"
+            ],
+            [
+              "BIMS",
+              "Belagavi",
+              "560+ / Rank ~26,000"
+            ],
+            [
+              "RIMS",
+              "Raichur",
+              "540+ / Rank ~32,000"
+            ],
+            [
+              "Mandya IMS",
+              "Mandya",
+              "540+ / Rank ~30,000"
+            ],
+            [
+              "GIMS Gadag, KIMS Koppal, CIMS Chamarajanagar, Karwar IMS",
+              "Various",
+              "520-540 / Rank 35-50K"
+            ]
+          ],
+          "sources": [],
+          "lastVerified": null
+        },
+        {
+          "type": "note",
+          "html": "Source: KEA NEET 2025 closing ranks, State Quota General Merit. Targets for NEET 2027 will be similar ±5%."
+        },
+        {
+          "type": "heading",
+          "html": "Deemed Universities (Mostly Expensive — Listed for Awareness)"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "top-deemed-fee-20-30-l-year",
+              "title": "Top Deemed — Fee ₹20-30 L/year",
+              "tag": {
+                "text": "Unaffordable",
+                "style": "warn"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "KMC Manipal, KMC Mangalore, JSS Mysuru, MS Ramaiah, St John's Bangalore, Yenepoya, Father Muller, DY Patil, SRM Chennai, Saveetha, Amrita Kochi, KIIT Bhubaneswar, BLDE Vijayapura."
+                },
+                {
+                  "type": "p",
+                  "html": "All admit via MCC Deemed counselling using NEET. Total fees for 5 years = ₹1-1.5 Cr including hostel."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Exception worth tracking:</strong> St John's Medical College Bangalore — minority Christian quota seats may have lower fees if eligible. Worth checking specifically."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nonhealing",
+      "label": "Non-Healing Path",
+      "blocks": [
+        {
+          "type": "intro",
+          "html": "Plan B and Plan C. PCMB qualifies you for both NEET and JEE/CUET/IISER tracks. <strong>CUET UG is the single most important backup exam</strong> — same syllabus as boards, accepted by 250+ universities including DU, BHU, JNU."
+        },
+        {
+          "type": "heading",
+          "html": "Research Track (Prestige + Stipend + Global PhD Pipeline)"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "iiser-bs-ms-dual-degree-5-years",
+              "title": "IISER — BS-MS Dual Degree (5 years)",
+              "tag": {
+                "text": "Top Research",
+                "style": "default"
+              },
+              "meta": [
+                {
+                  "label": "Entrance",
+                  "value": "IAT (IISER Aptitude Test)"
+                },
+                {
+                  "label": "Locations",
+                  "value": "7 IISERs — Pune, Kolkata, Mohali, Bhopal, Thiruvananthapuram, Tirupati, Berhampur"
+                },
+                {
+                  "label": "Fees",
+                  "value": "~₹15-25k/semester"
+                },
+                {
+                  "label": "Inspire Scholarship",
+                  "value": "₹80,000/year for top board rank students"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Best Indian path to a PhD abroad. Placements in MIT, Oxford, Max Planck, ETH Zurich for PhD. Biology/Chemistry/Physics/Math majors."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "niser-bhubaneswar-um-dae-cebs-mumbai-int-m-sc",
+              "title": "NISER Bhubaneswar / UM-DAE CEBS Mumbai — Int. M.Sc",
+              "tag": {
+                "text": "Top Research",
+                "style": "default"
+              },
+              "meta": [
+                {
+                  "label": "Entrance",
+                  "value": "NEST"
+                },
+                {
+                  "label": "Duration",
+                  "value": "5 yrs Integrated M.Sc"
+                },
+                {
+                  "label": "Stipend",
+                  "value": "DAE Disha ~₹60-80k/year"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Run by Department of Atomic Energy. Heavy research focus. Pipeline to BARC, TIFR, IISc and foreign PhDs."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "iisc-bangalore-bachelor-of-science-research",
+              "title": "IISc Bangalore — Bachelor of Science (Research)",
+              "tag": {
+                "text": "Top",
+                "style": "default"
+              },
+              "meta": [
+                {
+                  "label": "Entrance",
+                  "value": "JEE / NEET / IAT (any one)"
+                },
+                {
+                  "label": "Duration",
+                  "value": "4 yrs (option to convert to M.Sc, 5 yrs)"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "<strong>Bangalore-based.</strong> India's most prestigious science institute. Accepts NEET score — you can use NEET here even if MBBS doesn't work out. Tiny intake (~120), brutal Open-category cutoff."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Central Universities via CUET UG (Safety Net)"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "cuet-ug-central-university-entrance-test",
+              "title": "CUET UG — Central University Entrance Test",
+              "tag": {
+                "text": "Must-Take",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "NTA-conducted. Syllabus is purely Class 12 NCERT — a subset of NEET prep. No reason not to register."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Subject combination for PCMB students:</strong> English + Physics + Chemistry + Biology + Mathematics + General Test."
+                },
+                {
+                  "type": "p",
+                  "html": "<strong>Top destinations:</strong>"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Delhi University — B.Sc (H) Biotech, Botany, Zoology, Microbiology, Anthropology",
+                    "BHU Varanasi — B.Sc (H) various, B.Sc Agriculture",
+                    "JNU — Integrated Biotech",
+                    "University of Hyderabad — Integrated M.Sc",
+                    "Jamia Millia Islamia, AMU, Pondicherry, Tezpur, Central University of Karnataka"
+                  ]
+                },
+                {
+                  "type": "p",
+                  "html": "Applications open Feb 2027. Exam mid-May to early-June 2027."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Applied/Professional Tracks (PCMB-friendly)"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "b-sc-agriculture",
+              "title": "B.Sc Agriculture",
+              "tag": {
+                "text": "Stable + Govt jobs",
+                "style": "neutral"
+              },
+              "meta": [
+                {
+                  "label": "Entrance",
+                  "value": "ICAR AIEEA / CUET / state CETs"
+                },
+                {
+                  "label": "Top Colleges",
+                  "value": "IARI Delhi, TNAU Coimbatore, GBPUAT Pantnagar, UAS Bangalore, UAS Dharwad"
+                }
+              ],
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Strong career path: agri-banking (NABARD), ICAR scientist (ARS), agri-business, food tech, AgriTech startups. ICAR colleges give ₹3,000/month stipend. UAS Bangalore is in-city."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "b-sc-b-tech-biotechnology",
+              "title": "B.Sc / B.Tech Biotechnology",
+              "tag": {
+                "text": "Industry + Research",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "B.Sc Biotech (3 yrs) via CUET — DU, BHU, Jamia Hamdard. B.Tech Biotech (4 yrs) via JEE Main / BITSAT — VIT, DTU, Anna University, BITS. Bangalore Bio-Cluster has strong industry — Biocon, Strand Life Sciences, MedGenome."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "m-sc-forensic-science-non-doctor-route",
+              "title": "M.Sc Forensic Science (non-doctor route)",
+              "tag": {
+                "text": "Niche",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "National Forensic Sciences University (Gandhinagar — Institute of National Importance), Lok Nayak Jaiprakash Narayan National Institute of Criminology & Forensic Science Delhi. B.Sc Forensic Science (3 yrs) → M.Sc → CFSL / state forensic labs / private DNA labs."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "b-sc-psychology-hons",
+              "title": "B.Sc Psychology (Hons)",
+              "tag": {
+                "text": "Growth field",
+                "style": "neutral"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "DU, Christ University Bangalore, Jain University Bangalore, TISS Mumbai (via CUET). M.Sc Clinical Psychology + M.Phil = licensed Clinical Psychologist under RCI. NIMHANS Bangalore is major PG destination."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "b-tech-engineering-only-if-maths-is-strong",
+              "title": "B.Tech Engineering — only if Maths is strong",
+              "tag": {
+                "text": "Reality check",
+                "style": "warn"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "PCMB lets you sit JEE. But preparing JEE + NEET in parallel is brutal and dilutes both. Only sensible if you are strong in Maths. Otherwise drop and don't pretend it's a backup. Bio-leaning B.Tech options: Biotech, Food Tech, Chemical, Biomedical Engineering at NITs, BITS, VIT, SRM."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "iit-madras-online-b-sc-data-science",
+              "title": "IIT Madras Online B.Sc Data Science",
+              "tag": {
+                "text": "Parallel option",
+                "style": "alt"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Can be pursued <strong>alongside any other degree</strong>. Qualifier exam — no JEE needed. ₹35-40k/year. IIT Madras degree. Strong fallback if you land in a low-prestige main degree; rebuilds your CV."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "html": "Govt-of-India Service Routes"
+        },
+        {
+          "type": "accordion",
+          "entries": [
+            {
+              "id": "nda-national-defence-academy-girls",
+              "title": "NDA — National Defence Academy (Girls)",
+              "tag": {
+                "text": "Defence",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Girls eligible since 2022. UPSC NDA exam twice yearly + SSB interview. Commissioned officer after 3 yrs at NDA + 1 yr at academy. PCMB students can apply for Air Force/Navy streams."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            },
+            {
+              "id": "b-sc-upsc-civil-services-later",
+              "title": "B.Sc + UPSC Civil Services later",
+              "tag": {
+                "text": "Long path",
+                "style": "default"
+              },
+              "body": [
+                {
+                  "type": "p",
+                  "html": "Any decent B.Sc → UPSC at age 21+. IAS/IPS/IFS. Open to all PCMB graduates. Backstop, not a primary plan."
+                }
+              ],
+              "sources": [],
+              "lastVerified": null
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "html": "International opportunities (scholarships, summer schools, fellowships, gap-year programs) deserve a separate tab. Will be added next.",
+          "spaced": true
+        }
+      ]
+    },
+    {
+      "id": "examtimeline",
+      "label": "Exam Timeline",
+      "type": "timeline",
+      "allFilterLabel": "All Streams",
+      "categories": [
+        {
+          "id": "engg",
+          "legend": "Engineering",
+          "filter": "Engineering",
+          "pill": "Engg"
+        },
+        {
+          "id": "med",
+          "legend": "Medical",
+          "filter": "Medical",
+          "pill": "Med"
+        },
+        {
+          "id": "sci",
+          "legend": "Pure Science",
+          "filter": "Science",
+          "pill": "Science"
+        },
+        {
+          "id": "law",
+          "legend": "Law",
+          "filter": "Law",
+          "pill": "Law"
+        },
+        {
+          "id": "comm",
+          "legend": "Commerce/Mgmt",
+          "filter": "Commerce",
+          "pill": "Comm"
+        },
+        {
+          "id": "design",
+          "legend": "Design",
+          "filter": "Design",
+          "pill": "Design"
+        },
+        {
+          "id": "def",
+          "legend": "Defence",
+          "filter": "Defence",
+          "pill": "Def"
+        }
+      ],
+      "months": [
+        {
+          "month": "Sep",
+          "year": "2026",
+          "entries": [
+            {
+              "category": "design",
+              "kind": "apply",
+              "html": "UCEED — applications open (Sep–Oct 2026)"
+            },
+            {
+              "category": "design",
+              "kind": "apply",
+              "html": "NID DAT — applications open (Sep–Nov 2026)"
+            }
+          ]
+        },
+        {
+          "month": "Oct",
+          "year": "2026",
+          "entries": [
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "JEE Main Session 1 — applications open (Oct–Nov 2026)"
+            },
+            {
+              "category": "design",
+              "kind": "apply",
+              "html": "UCEED — last month to apply"
+            }
+          ]
+        },
+        {
+          "month": "Nov",
+          "year": "2026",
+          "entries": [
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "JEE Main Session 1 — last month to apply"
+            },
+            {
+              "category": "design",
+              "kind": "apply",
+              "html": "NID DAT — last month to apply"
+            },
+            {
+              "category": "design",
+              "kind": "apply",
+              "html": "NIFT — applications open (Nov–Dec 2026)"
+            }
+          ]
+        },
+        {
+          "month": "Dec",
+          "year": "2026",
+          "entries": [
+            {
+              "category": "design",
+              "kind": "apply",
+              "html": "NIFT — last month to apply"
+            },
+            {
+              "category": "comm",
+              "kind": "apply",
+              "html": "NPAT — applications open (Dec 2026–May 2027)"
+            },
+            {
+              "category": "def",
+              "kind": "apply",
+              "html": "NDA-I — applications open (Dec 2026–Jan 2027)"
+            },
+            {
+              "category": "law",
+              "kind": "exam",
+              "html": "<span class=\"tl-correction\">CLAT 2027 exam (corrected)</span> — for July 2027 batch entry"
+            },
+            {
+              "category": "law",
+              "kind": "exam",
+              "html": "<span class=\"tl-correction\">AILET 2027 exam (corrected)</span> — for July 2027 batch entry"
+            }
+          ]
+        },
+        {
+          "month": "Jan",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "engg",
+              "kind": "exam",
+              "html": "JEE Main Session 1"
+            },
+            {
+              "category": "design",
+              "kind": "exam",
+              "html": "UCEED"
+            },
+            {
+              "category": "design",
+              "kind": "exam",
+              "html": "NID DAT"
+            },
+            {
+              "category": "comm",
+              "kind": "exam",
+              "html": "NPAT — testing window opens (Jan–May 2027)"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "JEE Main Session 2 — applications open (Jan–Feb 2027)"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "BITSAT — applications open (Jan–Apr 2027)"
+            },
+            {
+              "category": "med",
+              "kind": "apply",
+              "html": "NEET-UG — applications open (Jan–Feb 2027)"
+            },
+            {
+              "category": "def",
+              "kind": "apply",
+              "html": "NDA-I — last month to apply"
+            }
+          ]
+        },
+        {
+          "month": "Feb",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "design",
+              "kind": "exam",
+              "html": "NIFT entrance exam"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "JEE Main Session 2 — last month to apply"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "COMEDK UGET — applications open (Feb–Apr 2027)"
+            },
+            {
+              "category": "med",
+              "kind": "apply",
+              "html": "NEET-UG — last month to apply"
+            },
+            {
+              "category": "comm",
+              "kind": "apply",
+              "html": "CUET-UG — applications open (Feb–Mar 2027)"
+            },
+            {
+              "category": "comm",
+              "kind": "apply",
+              "html": "IPMAT — applications open (Feb–Apr 2027)"
+            }
+          ]
+        },
+        {
+          "month": "Mar",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "comm",
+              "kind": "apply",
+              "html": "CUET-UG — last month to apply"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "NEST — applications open (Mar–May 2027)"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "CMI Entrance — applications open (Mar–May 2027)"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "ISI Entrance — applications open (Mar–Apr 2027)"
+            }
+          ]
+        },
+        {
+          "month": "Apr",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "engg",
+              "kind": "exam",
+              "html": "JEE Main Session 2"
+            },
+            {
+              "category": "def",
+              "kind": "exam",
+              "html": "NDA-I exam (UPSC)"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "BITSAT — last month to apply"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "COMEDK UGET — last month to apply"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "IAT (IISER) — applications open (Apr–May 2027)"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "ISI Entrance — last month to apply"
+            },
+            {
+              "category": "comm",
+              "kind": "apply",
+              "html": "IPMAT — last month to apply"
+            }
+          ]
+        },
+        {
+          "month": "May",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "med",
+              "kind": "exam",
+              "html": "NEET-UG (first Sunday of May, typically)"
+            },
+            {
+              "category": "comm",
+              "kind": "exam",
+              "html": "CUET-UG exam window (mid-May to early June)"
+            },
+            {
+              "category": "engg",
+              "kind": "exam",
+              "html": "BITSAT exam window (May–Jun 2027)"
+            },
+            {
+              "category": "engg",
+              "kind": "exam",
+              "html": "COMEDK UGET"
+            },
+            {
+              "category": "sci",
+              "kind": "exam",
+              "html": "ISI Entrance exam"
+            },
+            {
+              "category": "comm",
+              "kind": "exam",
+              "html": "IPMAT exam (May–Jun 2027)"
+            },
+            {
+              "category": "comm",
+              "kind": "exam",
+              "html": "NPAT — testing window closes"
+            },
+            {
+              "category": "engg",
+              "kind": "apply",
+              "html": "JEE Advanced — applications open (May 2027)"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "IAT (IISER) — last month to apply"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "NEST — last month to apply"
+            },
+            {
+              "category": "sci",
+              "kind": "apply",
+              "html": "CMI — last month to apply"
+            },
+            {
+              "category": "def",
+              "kind": "apply",
+              "html": "NDA-II — applications open (May–Jun 2027)"
+            }
+          ]
+        },
+        {
+          "month": "Jun",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "engg",
+              "kind": "exam",
+              "html": "JEE Advanced (May/Jun 2027)"
+            },
+            {
+              "category": "sci",
+              "kind": "exam",
+              "html": "IAT (IISER) exam"
+            },
+            {
+              "category": "sci",
+              "kind": "exam",
+              "html": "NEST exam"
+            },
+            {
+              "category": "sci",
+              "kind": "exam",
+              "html": "CMI Entrance exam"
+            },
+            {
+              "category": "def",
+              "kind": "apply",
+              "html": "NDA-II — last month to apply"
+            }
+          ]
+        },
+        {
+          "month": "Sep",
+          "year": "2027",
+          "entries": [
+            {
+              "category": "def",
+              "kind": "exam",
+              "html": "NDA-II exam (UPSC)"
+            }
+          ]
+        }
+      ],
+      "note": "v1.0 · 8 July 2026 · Source: an exam calendar image, with accuracy corrections applied. Dates are pattern-based projections; confirm against official NTA/UPSC/institute notifications when released (expected Sep–Nov 2026).",
+      "sources": [],
+      "lastVerified": null
+    }
+  ]
+}
