@@ -15,7 +15,6 @@ Every change merged into `main` is published automatically by Cloudflare Workers
 - `sources/mbbs/`: KEA MBBS allotment lists and notices.
 - `sources/ayurveda/aaccc/`: AACCC (national) seat matrices, allotment results and notices.
 - `sources/ayurveda/kea/`: KEA AYUSH allotment lists.
-- `sources/ayurveda/chhattisgarh/`: other state lists.
 - `sources/ayurveda/notes/`: secondary analyses (not official sources).
 
 `index.html` fetches `content.json` over HTTP, so both files must be deployed side by side.

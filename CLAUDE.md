@@ -12,7 +12,7 @@ explain every step in plain language and say exactly what they need to do.
 - `wrangler.jsonc`: the `name` must stay `per-pcmb-career-path` (a mismatch fails every build), and the empty
   `previews` block is required for branch previews (`wrangler preview`).
 - `sources/` holds official documents with descriptive names. Not published; linked from `sources` fields.
-  `sources/mbbs/` has KEA MBBS files; `sources/ayurveda/` has `aaccc/`, `kea/`, state folders and `notes/`
+  `sources/mbbs/` has KEA MBBS files; `sources/ayurveda/` has `aaccc/`, `kea/` and `notes/`
   (secondary analyses, not citable as official). Put new uploads in the matching folder, not the repo root.
 - `tools/` holds the one-off scripts used to build the Karnataka table from KEA's 2026 allotment lists
   (`pdftotext -layout` each PDF to r1/r2/r3.txt, then `kea_parse.py`, `colleges.py`, `build_karnataka.py`).
@@ -31,7 +31,8 @@ explain every step in plain language and say exactly what they need to do.
 
 ## Content rules
 
-- No personal information about any individual. Write in neutral terms ("you", "students"), not "her" or "she".
+- Nothing that ties the site to the owner or their family, so the URL can be shared with anyone. Write in neutral terms
+  ("you", "students"), not "her" or "she". Official public documents (allotment lists, notices) are fine in `sources/`.
 - Never invent facts or sources. Every career entry has `sources` and `lastVerified`; fill them only from sources
   actually checked, and leave `lastVerified` null otherwise.
 - Prefer official sources (KEA, NMC, NTA, MCC) over blogs. Say which points come from secondary sites.
