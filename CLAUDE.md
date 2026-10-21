@@ -33,16 +33,11 @@ explain every step in plain language and say exactly what they need to do.
 - Never invent facts or sources. Every career entry has `sources` and `lastVerified`; fill them only from sources
   actually checked, and leave `lastVerified` null otherwise.
 - Prefer official sources (KEA, NMC, NTA, MCC) over blogs. Say which points come from secondary sites.
-- Do not publish hostel hygiene, safety or ragging findings about named colleges (owner's decision).
 - Karnataka table: KEA government-quota seats only (course code ending MG), exact GM category, 2026 Rounds 1 to 3.
   Cutoff = highest AIR allotted a GM government seat in that round. Seats = GM seats filled after Round 2.
-- Do not copy third-party flowcharts; the owner chose the text guide without a diagram.
 - No emojis in published content.
 
 ## Open items (as of 21 October 2026)
-
-- PR 6 (KEA admission guide updated from KEA notices CR-04 and CR-11, version 2.0): waiting on the Cloudflare
-  preview build and the owner's "go live".
 - Ayurveda information: the owner is collecting it.
 - Most Healing Paths and Non-Healing Path entries still have no sources or verification date.
 - Fact-check files per tab can be regenerated from `content.json` for checking in Perplexity.
