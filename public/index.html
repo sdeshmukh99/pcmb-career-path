@@ -494,6 +494,11 @@
   details.sec:first-of-type > summary .section-h { margin-top: 4px; }
   details.sec > summary .section-h::after { content: '\2212'; color: var(--olive); font-family: 'Inter', sans-serif; font-size: 18px; }
   details.sec:not([open]) > summary .section-h::after { content: '+'; }
+  details.subsec > summary { list-style: none; cursor: pointer; }
+  details.subsec > summary::-webkit-details-marker { display: none; }
+  details.subsec > summary .sub-h { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  details.subsec > summary .sub-h::after { content: '\2212'; color: var(--olive); font-family: 'Inter', sans-serif; font-size: 16px; }
+  details.subsec:not([open]) > summary .sub-h::after { content: '+'; }
   td a { color: var(--olive); }
   table.wide { min-width: 760px; }
   th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
@@ -804,7 +809,20 @@
     toc.appendChild(el('span', 'toc-label', 'Jump to'));
     const sections = [];
     let target = panel;
+    let section = panel;
     tab.blocks.forEach(b => {
+      if (b.type === 'subheading') {
+        target = section;
+        if (!b.collapsible) { target.appendChild(renderBlock(b)); return; }
+        const sub = el('details', 'subsec');
+        sub.open = true;
+        const summary = el('summary');
+        summary.appendChild(renderBlock(b));
+        sub.appendChild(summary);
+        section.appendChild(sub);
+        target = sub;
+        return;
+      }
       if (b.type !== 'heading') { target.appendChild(renderBlock(b)); return; }
       const sec = el('details', 'sec');
       sec.open = true;
@@ -814,7 +832,7 @@
       sec.appendChild(summary);
       panel.appendChild(sec);
       sections.push(sec);
-      target = sec;
+      target = section = sec;
 
       const link = el('a', '', b.html);
       link.href = '#' + sec.id;

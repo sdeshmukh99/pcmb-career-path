@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "2.2",
+    "version": "2.3",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -956,7 +956,8 @@
         },
         {
           "type": "subheading",
-          "html": "Summary by district"
+          "html": "Summary by district",
+          "collapsible": true
         },
         {
           "type": "table",
@@ -1218,7 +1219,8 @@
         },
         {
           "type": "subheading",
-          "html": "All colleges (sorted by Round 1 cutoff)"
+          "html": "All colleges (sorted by Round 1 cutoff)",
+          "collapsible": true
         },
         {
           "type": "table",
