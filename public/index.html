@@ -501,13 +501,17 @@
   details.subsec:not([open]) > summary .sub-h::after { content: '+'; }
   td a { color: var(--olive); }
   table.wide { min-width: 760px; }
-  th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th { vertical-align: bottom; }
+  td.num { white-space: nowrap; }
+  table.wide th.num { width: 1%; }
+  table.wide th:first-child { min-width: 200px; }
   th.sortable::after { content: ' \2195'; opacity: 0.5; }
   th.sortable[aria-sort="ascending"]::after { content: ' \25B2'; opacity: 1; }
   th.sortable[aria-sort="descending"]::after { content: ' \25BC'; opacity: 1; }
   tr.filters th { background: var(--cream); padding: 6px 8px; text-transform: none; letter-spacing: 0; }
   tr.filters input, tr.filters select {
-    width: 100%; min-width: 70px; font: 12px 'Inter', sans-serif; padding: 4px 6px;
+    width: 100%; min-width: 56px; font: 12px 'Inter', sans-serif; padding: 4px 6px;
     border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink);
   }
   .filter-status { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--muted); margin: 8px 0 -4px; }
@@ -625,12 +629,25 @@
       tbody.appendChild(tr);
       return tr;
     });
+    markNumberColumns(hr, trs);
     table.append(thead, tbody);
     wrap.appendChild(table);
     if (b.sortable) makeSortable(hr, tbody, b.sortExclude === 'last' ? trs.slice(0, -1) : trs);
     if (b.filterable) frag.appendChild(makeFilterable(thead, trs));
     frag.append(wrap, sourceLine(b));
     return frag;
+  }
+
+  // Columns holding only numbers, fees or dashes stay on one line; in wide tables they
+  // take only the room they need, so names and places get the rest.
+  function markNumberColumns(headRow, trs) {
+    Array.from(headRow.children).forEach((th, col) => {
+      const cells = trs.map(tr => tr.children[col]).filter(Boolean);
+      const isNum = cells.length && cells.every(td => /^[\s\d,.₹–-]*$/.test(td.textContent));
+      if (!isNum) return;
+      th.classList.add('num');
+      cells.forEach(td => td.classList.add('num'));
+    });
   }
 
   // Excel-style filters: a dropdown for columns with few distinct values,
