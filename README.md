@@ -10,7 +10,12 @@ Career Options and Way to Get There for PCMB
 
 Every change merged into `main` is published automatically by Cloudflare Workers Builds.
 
-`sources/` holds the official documents the content is built from (for example KEA allotment lists). It is not published on the site.
+`sources/` holds the official documents the content is built from. It is not published on the site.
+
+- `sources/mbbs/`: KEA MBBS allotment lists and notices.
+- `sources/ayurveda/aaccc/`: AACCC (national) information bulletins, seat matrices, final allotment results and notices.
+- `sources/ayurveda/kea/`: KEA AYUSH allotment lists.
+- `sources/ayurveda/notes/`: secondary analyses (not official sources).
 
 `index.html` fetches `content.json` over HTTP, so both files must be deployed side by side.
 Opening `index.html` directly from disk will not work; preview locally with
