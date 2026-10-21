@@ -500,6 +500,13 @@
   th.sortable::after { content: ' \2195'; opacity: 0.5; }
   th.sortable[aria-sort="ascending"]::after { content: ' \25B2'; opacity: 1; }
   th.sortable[aria-sort="descending"]::after { content: ' \25BC'; opacity: 1; }
+  tr.filters th { background: var(--cream); padding: 6px 8px; text-transform: none; letter-spacing: 0; }
+  tr.filters input, tr.filters select {
+    width: 100%; min-width: 70px; font: 12px 'Inter', sans-serif; padding: 4px 6px;
+    border: 1px solid var(--line); border-radius: 4px; background: #fff; color: var(--ink);
+  }
+  .filter-status { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--muted); margin: 8px 0 -4px; }
+  .filter-status button { font: 12px 'Inter', sans-serif; padding: 3px 10px; border: 1px solid var(--line); border-radius: 14px; background: #fff; color: var(--muted); cursor: pointer; }
 </style>
 </head>
 <body>
@@ -616,8 +623,65 @@
     table.append(thead, tbody);
     wrap.appendChild(table);
     if (b.sortable) makeSortable(hr, tbody, b.sortExclude === 'last' ? trs.slice(0, -1) : trs);
+    if (b.filterable) frag.appendChild(makeFilterable(thead, trs));
     frag.append(wrap, sourceLine(b));
     return frag;
+  }
+
+  // Excel-style filters: a dropdown for columns with few distinct values,
+  // a minimum for number columns, and a "contains" box for text.
+  function makeFilterable(thead, rows) {
+    const status = el('div', 'filter-status');
+    const count = el('span');
+    const clear = el('button', '', 'Clear filters');
+    clear.type = 'button';
+    status.append(count, clear);
+    const row = el('tr', 'filters');
+    const tests = [];
+    const ncols = rows[0].children.length;
+    for (let col = 0; col < ncols; col++) {
+      const th = el('th');
+      const values = rows.map(tr => tr.children[col].textContent.trim());
+      const distinct = [...new Set(values)];
+      let input;
+      if (distinct.length <= 12) {
+        input = el('select');
+        input.appendChild(new Option('All', ''));
+        distinct.sort((a, b) => (sortKey(a) ?? Infinity) > (sortKey(b) ?? Infinity) ? 1 : -1)
+          .forEach(v => input.appendChild(new Option(v, v)));
+        tests.push(v => !input.value || v === input.value);
+      } else if (values.every(v => v === '–' || typeof sortKey(v) === 'number')) {
+        input = el('input');
+        input.type = 'number';
+        input.placeholder = 'at least';
+        tests.push(v => !input.value || (sortKey(v) !== null && sortKey(v) >= Number(input.value)));
+      } else {
+        input = el('input');
+        input.type = 'search';
+        input.placeholder = 'contains';
+        tests.push(v => !input.value || v.toLowerCase().includes(input.value.trim().toLowerCase()));
+      }
+      input.setAttribute('aria-label', 'Filter ' + thead.rows[0].children[col].textContent);
+      input.addEventListener('input', apply);
+      th.appendChild(input);
+      row.appendChild(th);
+    }
+    thead.appendChild(row);
+    function apply() {
+      let shown = 0;
+      rows.forEach(tr => {
+        const ok = tests.every((t, col) => t(tr.children[col].textContent.trim()));
+        tr.style.display = ok ? '' : 'none';
+        if (ok) shown++;
+      });
+      count.textContent = `Showing ${shown} of ${rows.length}`;
+    }
+    clear.addEventListener('click', () => {
+      row.querySelectorAll('input, select').forEach(i => { i.value = ''; });
+      apply();
+    });
+    apply();
+    return status;
   }
 
   // Numbers sort numerically ("₹1,53,571" -> 153571); "–" and blanks always go last.
