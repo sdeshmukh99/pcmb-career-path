@@ -11,7 +11,9 @@ explain every step in plain language and say exactly what they need to do.
 - `public/content.json` holds all content; `public/index.html` only renders it. `public/` is the only published folder.
 - `wrangler.jsonc`: the `name` must stay `per-pcmb-career-path` (a mismatch fails every build), and the empty
   `previews` block is required for branch previews (`wrangler preview`).
-- `sources/` holds official documents (KEA PDFs) with descriptive names. Not published; linked from `sources` fields.
+- `sources/` holds official documents with descriptive names. Not published; linked from `sources` fields.
+  `sources/mbbs/` has KEA MBBS files; `sources/ayurveda/` has `aaccc/`, `kea/`, state folders and `notes/`
+  (secondary analyses, not citable as official). Put new uploads in the matching folder, not the repo root.
 - `tools/` holds the one-off scripts used to build the Karnataka table from KEA's 2026 allotment lists
   (`pdftotext -layout` each PDF to r1/r2/r3.txt, then `kea_parse.py`, `colleges.py`, `build_karnataka.py`).
   `build_karnataka.py` looks for the old section heading, so adapt it before reusing it for a new year.
