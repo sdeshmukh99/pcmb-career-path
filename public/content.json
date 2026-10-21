@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "2.1",
+    "version": "2.3",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -952,11 +952,12 @@
         },
         {
           "type": "callout",
-          "html": "<strong>How to read the cutoffs:</strong> each cutoff is the highest NEET All India Rank that got a General Merit (GM) government seat at that college in that round. If your rank is lower (better) than a college's cutoff, that college was within reach in that round. Example: with rank 10,000, BMCRI (2,655) was out of reach in Round 1, while ESIC Bengaluru (11,745) was within reach. Cutoffs move every year, so treat them as a guide."
+          "html": "<strong>How to read the cutoffs:</strong> each cutoff is the highest NEET All India Rank that got a General Merit (GM) government seat at that college in that round. If your rank is lower (better) than a college's cutoff, that college was within reach in that round. Example: with rank 10,000, BMCRI (2,655) was out of reach in Round 1, while ESIC Bengaluru (11,745) was within reach. Cutoffs move every year, so treat them as a guide. A worked example follows the table."
         },
         {
           "type": "subheading",
-          "html": "Summary by district"
+          "html": "Summary by district",
+          "collapsible": true
         },
         {
           "type": "table",
@@ -1218,7 +1219,8 @@
         },
         {
           "type": "subheading",
-          "html": "All colleges (sorted by Round 1 cutoff)"
+          "html": "All colleges (sorted by Round 1 cutoff)",
+          "collapsible": true
         },
         {
           "type": "table",
@@ -1940,6 +1942,62 @@
         {
           "type": "note",
           "html": "Data: KEA UGNEET 2026 final allotment lists, only government-quota seats (course code ending MG) in the exact GM category. GM seats = GM government seats filled after Round 2, counted from the lists; KEA's official seat matrix may differ slightly. The Round 3 list covers only candidates who took part in Round 3, so a Round 3 cutoff can be lower than Round 2. – means no GM government seat was allotted at that college in that round (Bagalkote Medical College first appears in Round 2). Type is inferred from the KEA fee. Fees are as listed by KEA, including ₹0 at Sri Madhusudan Sai and ₹6,09,084 at Jagadguru Gangadhar Mahaswamigalu Moorusavirmath Medical College. Tap a column heading to sort. Use the boxes under the headings to filter: pick from a list, type part of a name, or enter a number to show rows at or above it (for example, your All India Rank in a cutoff column shows colleges that were within reach)."
+        },
+        {
+          "type": "subheading",
+          "html": "How to use the cutoffs: one example"
+        },
+        {
+          "type": "lead",
+          "html": "One row from the table: Mysore Medical College (government, ₹64,350 a year, 71 GM seats)."
+        },
+        {
+          "type": "table",
+          "columns": [
+            "Round",
+            "Cutoff"
+          ],
+          "rows": [
+            [
+              "R1",
+              "6,539"
+            ],
+            [
+              "R2",
+              "8,022"
+            ],
+            [
+              "R3",
+              "9,461"
+            ]
+          ],
+          "sources": [
+            {
+              "label": "KEA UGNEET 2026 Round 1 final allotment list (28 Aug 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/kea-ugneet-2026-mbbs-round-1-final-allotment-2026-08-28.pdf"
+            },
+            {
+              "label": "KEA Round 2 final allotment list (16 Sep 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/kea-ugneet-2026-mbbs-round-2-final-allotment-2026-09-16.pdf"
+            },
+            {
+              "label": "KEA Round 3 final allotment list (6 Oct 2026)",
+              "url": "https://github.com/sdeshmukh99/pcmb-career-path/blob/main/sources/kea-ugneet-2026-mbbs-round-3-final-allotment-2026-10-06.pdf"
+            },
+            {
+              "label": "KEA official website",
+              "url": "https://kea.kar.nic.in/"
+            }
+          ],
+          "lastVerified": "2026-10-21"
+        },
+        {
+          "type": "callout",
+          "html": "<strong>How to read it, using four ranks</strong><ul><li>At rank 6,000, which is better than 6,539, you would have got Mysore in Round 1, provided you listed it in your options.</li><li>At rank 7,500, Round 1 was out of reach. In Round 2 the cutoff moved to 8,022, so you would have got Mysore then.</li><li>At rank 9,000, you would have had to wait until Round 3 (cutoff 9,461).</li><li>At rank 10,000, Mysore never reached you in 2026 under GM.</li></ul>The cutoff gets worse in each round because seats open up again after Round 1. Some students who got Mysore move up to a better college, such as BMCRI, take an all-India seat through MCC, or don't join. KEA then fills those seats by going further down the merit list, so worse ranks get in."
+        },
+        {
+          "type": "callout",
+          "html": "<strong>Three cautions</strong><ul><li>A later round can show a better cutoff than the round before it. Kempegowda went 19,771 in R2 and then 19,577 in R3, because the Round 3 list covers only students who took part in that round. The note under the table says this.</li><li>These numbers are GM only. Students in reserved categories (SC, ST, 2A and others) can get the same college at worse ranks, and that isn't shown here.</li><li>These are 2026 numbers. In 2027 the paper difficulty and seat counts will change, so use the table as a rough guide, not a promise. A practical way to use it: list the colleges whose R2 or R3 cutoff is worse than your expected rank, then add a few safer ones below them.</li></ul>"
         },
         {
           "type": "heading",
