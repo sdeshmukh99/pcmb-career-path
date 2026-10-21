@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "1.5",
+    "version": "1.6",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -63,7 +63,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "After MBBS, specialisations split into broad branches. Sections below cover the most-asked-about ones."
+                  "html": "After MBBS, specialisations split into broad branches."
                 }
               ],
               "sources": [],
@@ -774,7 +774,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "Mentioned for completeness — these are technician careers, not doctor careers. Pay caps lower; harder to set up independent practice. Included because people often confuse these roles with the doctor roles above."
+                  "html": "These are technician careers, not doctor careers. Pay caps lower; harder to set up independent practice."
                 }
               ],
               "sources": [],
@@ -1360,11 +1360,6 @@
               "lastVerified": null
             }
           ]
-        },
-        {
-          "type": "note",
-          "html": "International opportunities (scholarships, summer schools, fellowships, gap-year programs) deserve a separate tab. Will be added next.",
-          "spaced": true
         }
       ]
     },
