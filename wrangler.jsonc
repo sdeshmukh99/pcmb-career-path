@@ -1,0 +1,8 @@
+// Cloudflare deploy settings. The site is plain files in ./public, served as-is.
+{
+  "name": "per-pcmb-career-path",
+  "compatibility_date": "2025-10-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

@@ -3,12 +3,14 @@ Career Options and Way to Get There for PCMB
 
 ## Structure
 
-- `content.json` holds all page content. Edit this file to change what the site says.
-- `index.html` only loads `content.json` and displays it. It holds no career content.
+- `public/content.json` holds all page content. Edit this file to change what the site says.
+- `public/index.html` only loads `content.json` and displays it. It holds no career content.
+- `wrangler.jsonc` tells Cloudflare to publish the `public` folder as the
+  `per-pcmb-career-path` Worker.
 
 `index.html` fetches `content.json` over HTTP, so both files must be deployed side by side.
 Opening `index.html` directly from disk will not work; preview locally with
-`python3 -m http.server` and open http://localhost:8000.
+`python3 -m http.server -d public` and open http://localhost:8000.
 
 ## content.json
 

@@ -4,7 +4,7 @@
     "heading": "Post-12th Career Plan",
     "subtitle": "PCMB · CBSE 2027 · Living document",
     "footer": "Living document",
-    "version": "1.4",
+    "version": "1.5",
     "lastUpdated": "2026-10-21"
   },
   "tabs": [
@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "intro",
-          "html": "All courses below let her practice as a doctor or healthcare professional. Excludes nursing and basic technician routes. Most entries are via <strong>NEET UG 2027</strong>. AYUSH and Physiotherapy need lower NEET ranks than MBBS. All cutoff numbers in this document are <strong>Open Category</strong>."
+          "html": "All courses below let you practice as a doctor or healthcare professional. Excludes nursing and basic technician routes. Most entries are via <strong>NEET UG 2027</strong>. AYUSH and Physiotherapy need lower NEET ranks than MBBS. All cutoff numbers in this document are <strong>Open Category</strong>."
         },
         {
           "type": "heading",
@@ -63,7 +63,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "After MBBS, specialisations split into broad branches. Sections below cover the ones you asked about."
+                  "html": "After MBBS, specialisations split into broad branches. Sections below cover the most-asked-about ones."
                 }
               ],
               "sources": [],
@@ -485,7 +485,7 @@
         },
         {
           "type": "intro",
-          "html": "Short certifications and skill-stacks she can layer on top of BAMS/BNYS to build a differentiated clinic, train staff, and develop her own product line. Most are 3-12 month diplomas; many can be added during or after the main degree."
+          "html": "Short certifications and skill-stacks you can layer on top of BAMS/BNYS to build a differentiated clinic, train staff, and develop your own product line. Most are 3-12 month diplomas; many can be added during or after the main degree."
         },
         {
           "type": "accordion",
@@ -516,7 +516,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "5-treatment detox/cleansing protocol. The most commercially successful Ayurveda export — drives wellness retreats from Kerala to Switzerland. PG Diploma in Panchakarma after BAMS, or MD Panchakarma. Essential if she wants to run a clinic or retreat centre."
+                  "html": "5-treatment detox/cleansing protocol. The most commercially successful Ayurveda export — drives wellness retreats from Kerala to Switzerland. PG Diploma in Panchakarma after BAMS, or MD Panchakarma. Essential if you want to run a clinic or retreat centre."
                 }
               ],
               "sources": [],
@@ -552,7 +552,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "Also see: <strong>Indian Academy of Osteopathy (IAO) Bangalore</strong>, <strong>NIBNS Bangalore</strong>. Osteopathy is a fully licensed medical profession in USA (DO degree, equivalent to MD) and recognised in UK, Australia, NZ, France — strong international portability if she pursues full degrees from those countries."
+                  "html": "Also see: <strong>Indian Academy of Osteopathy (IAO) Bangalore</strong>, <strong>NIBNS Bangalore</strong>. Osteopathy is a fully licensed medical profession in USA (DO degree, equivalent to MD) and recognised in UK, Australia, NZ, France — strong international portability if you pursue full degrees from those countries."
                 }
               ],
               "sources": [],
@@ -616,7 +616,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "PG Diploma or M.Sc in Clinical Nutrition. Pairs extremely well with Ayurveda — Ayurveda's core strength is diet/lifestyle. Lets her offer a \"modern + Ayurveda\" diet plan as a paid service. SNDT Mumbai, IGNOU, Christ University Bangalore."
+                  "html": "PG Diploma or M.Sc in Clinical Nutrition. Pairs extremely well with Ayurveda — Ayurveda's core strength is diet/lifestyle. Lets you offer a \"modern + Ayurveda\" diet plan as a paid service. SNDT Mumbai, IGNOU, Christ University Bangalore."
                 }
               ],
               "sources": [],
@@ -745,7 +745,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "4 yrs. AIISH Mysuru is the top centre — relevant given Bangalore base. Excellent international placement."
+                  "html": "4 yrs. AIISH Mysuru is the top centre — relevant for Karnataka students. Excellent international placement."
                 }
               ],
               "sources": [],
@@ -774,7 +774,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "Mentioned for completeness — these are technician careers, not doctor careers. Pay caps lower; harder to set up independent practice. Including here only because you asked about the \"ECG/radio guys\"."
+                  "html": "Mentioned for completeness — these are technician careers, not doctor careers. Pay caps lower; harder to set up independent practice. Included because people often confuse these roles with the doctor roles above."
                 }
               ],
               "sources": [],
@@ -903,7 +903,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "Employees' State Insurance Corporation medical colleges. Includes <strong>ESIC Bangalore (Rajajinagar)</strong> — relevant for Bangalore base. Fees moderate (~₹1.5-2 L/year). General quota seats via MCC AIQ."
+                  "html": "Employees' State Insurance Corporation medical colleges. Includes <strong>ESIC Bangalore (Rajajinagar)</strong> — relevant for Karnataka students. Fees moderate (~₹1.5-2 L/year). General quota seats via MCC AIQ."
                 },
                 {
                   "type": "p",
@@ -948,7 +948,7 @@
         },
         {
           "type": "lead",
-          "html": "Karnataka has 24 govt medical colleges, ~4,250 MBBS seats. <strong>85% reserved for Karnataka domicile</strong> via KEA counselling — her single biggest advantage. Fees ~₹64,000/year. All cutoffs below are <strong>Open Category, State Quota, General Merit</strong>."
+          "html": "Karnataka has 24 govt medical colleges, ~4,250 MBBS seats. <strong>85% reserved for Karnataka domicile</strong> via KEA counselling — the single biggest advantage for Karnataka-domicile students. Fees ~₹64,000/year. All cutoffs below are <strong>Open Category, State Quota, General Merit</strong>."
         },
         {
           "type": "table",
@@ -1057,7 +1057,7 @@
       "blocks": [
         {
           "type": "intro",
-          "html": "Plan B and Plan C. PCMB qualifies her for both NEET and JEE/CUET/IISER tracks. <strong>CUET UG is the single most important backup exam</strong> — same syllabus as boards, accepted by 250+ universities including DU, BHU, JNU."
+          "html": "Plan B and Plan C. PCMB qualifies you for both NEET and JEE/CUET/IISER tracks. <strong>CUET UG is the single most important backup exam</strong> — same syllabus as boards, accepted by 250+ universities including DU, BHU, JNU."
         },
         {
           "type": "heading",
@@ -1150,7 +1150,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "<strong>Bangalore-based.</strong> India's most prestigious science institute. Accepts NEET score — she can use NEET here even if MBBS doesn't work out. Tiny intake (~120), brutal Open-category cutoff."
+                  "html": "<strong>Bangalore-based.</strong> India's most prestigious science institute. Accepts NEET score — you can use NEET here even if MBBS doesn't work out. Tiny intake (~120), brutal Open-category cutoff."
                 }
               ],
               "sources": [],
@@ -1179,7 +1179,7 @@
                 },
                 {
                   "type": "p",
-                  "html": "<strong>Subject combination for her:</strong> English + Physics + Chemistry + Biology + Mathematics + General Test."
+                  "html": "<strong>Subject combination for PCMB students:</strong> English + Physics + Chemistry + Biology + Mathematics + General Test."
                 },
                 {
                   "type": "p",
@@ -1296,7 +1296,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "PCMB lets her sit JEE. But preparing JEE + NEET in parallel is brutal and dilutes both. Only sensible if she is strong in Maths. Otherwise drop and don't pretend it's a backup. Bio-leaning B.Tech options: Biotech, Food Tech, Chemical, Biomedical Engineering at NITs, BITS, VIT, SRM."
+                  "html": "PCMB lets you sit JEE. But preparing JEE + NEET in parallel is brutal and dilutes both. Only sensible if you are strong in Maths. Otherwise drop and don't pretend it's a backup. Bio-leaning B.Tech options: Biotech, Food Tech, Chemical, Biomedical Engineering at NITs, BITS, VIT, SRM."
                 }
               ],
               "sources": [],
@@ -1312,7 +1312,7 @@
               "body": [
                 {
                   "type": "p",
-                  "html": "Can be pursued <strong>alongside any other degree</strong>. Qualifier exam — no JEE needed. ₹35-40k/year. IIT Madras degree. Strong fallback if she lands in a low-prestige main degree; rebuilds her CV."
+                  "html": "Can be pursued <strong>alongside any other degree</strong>. Qualifier exam — no JEE needed. ₹35-40k/year. IIT Madras degree. Strong fallback if you land in a low-prestige main degree; rebuilds your CV."
                 }
               ],
               "sources": [],
@@ -1760,7 +1760,7 @@
           ]
         }
       ],
-      "note": "v1.0 · 8 July 2026 · Source: IMG20260708100403.jpg with accuracy corrections applied. Dates are pattern-based projections; confirm against official NTA/UPSC/institute notifications when released (expected Sep–Nov 2026).",
+      "note": "v1.0 · 8 July 2026 · Source: an exam calendar image, with accuracy corrections applied. Dates are pattern-based projections; confirm against official NTA/UPSC/institute notifications when released (expected Sep–Nov 2026).",
       "sources": [],
       "lastVerified": null
     }
